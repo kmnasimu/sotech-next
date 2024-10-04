@@ -43,7 +43,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
             <div class="header-lower">
                 <div class="main-box">
                     <div class="logo-box">
-                        <div className="logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
+                        <div className="logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
                     </div>
                     <div class="nav-outer">
                         <nav class="nav main-menu">
@@ -65,8 +65,8 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div class="menu-backdrop" onClick={handleRemove} />
                 <nav class="menu-box">
                     <div class="upper-box">
-                        <div className="nav-logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
-                        <div class="close-btn"><i class="icon fa fa-times" /></div>
+                        <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
+                        <div class="close-btn" onClick={handleRemove}><i class="icon fa fa-times" /></div>
                     </div>
                     <MobileMenu/>
                     <ul class="contact-list-one">

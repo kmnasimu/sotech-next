@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video'
 
@@ -17,7 +18,7 @@ export default function Home1_Section9() {
                                     <figure class="image"><img src="images/resource/image-4.jpg" alt="" /></figure>
                                     <div class="caption-box">
                                         <div class="icon-box">
-                                            <a onClick={() => setOpen(true)} className="play-now lightbox-image" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></a>
+                                            <Link onClick={() => setOpen(true)} className="play-now lightbox-image" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></Link>
                                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Fvae8nxzVz4" onClose={() => setOpen(false)} />
                                         </div>
                                         <div class="title-box">

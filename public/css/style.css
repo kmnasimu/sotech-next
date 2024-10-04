@@ -4071,6 +4071,7 @@ Section Title
   line-height: 58px;
   margin: 7px 0;
   opacity: 1;
+  z-index: 9;
   text-align: center;
   width: 60px;
   -webkit-transition: all 500ms ease;
