@@ -64,15 +64,15 @@ const ProjectsSliderOne = () => {
             >
                 {data.map((item, i) => (
                 <SwiperSlide>
-                    <div class="project-block">
-						<div class="inner-box">
-							<div class="image-box">
-								<figure class="image"><Link href={`images/resource/${item.img}`} class="lightbox-image"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
-								<Link href="/page-project-details" class="icon"><i class="fa fa-long-arrow-alt-right" /></Link>
+                    <div className="project-block">
+						<div className="inner-box">
+							<div className="image-box">
+								<figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+								<Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
 							</div>
-							<div class="content-box">
-								<h3 class="title"><Link href="/page-project-details">{item.title}</Link></h3>
-								<span class="cat">{item.categories}</span>
+							<div className="content-box">
+								<h3 className="title"><Link href="/page-project-details">{item.title}</Link></h3>
+								<span className="cat">{item.categories}</span>
 							</div>
 						</div>
 					</div>

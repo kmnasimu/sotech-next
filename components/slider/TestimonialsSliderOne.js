@@ -62,21 +62,21 @@ const TestimonialsSliderOne = () => {
                 {data.map((item, i) => (
                 <SwiperSlide>
                     {/* <!-- Testimonial Block --> */}
-					<div class="testimonial-block-five">
-						<div class="inner-box">
-							<div class="content-box">
-								<div class="rating">
-                                    <i class="fa fa-star" />
-                                    <i class="fa fa-star" />
-                                    <i class="fa fa-star" />
-                                    <i class="fa fa-star" />
-                                    <i class="fa fa-star-half-alt" />
+					<div className="testimonial-block-five">
+						<div className="inner-box">
+							<div className="content-box">
+								<div className="rating">
+                                    <i className="fa fa-star" />
+                                    <i className="fa fa-star" />
+                                    <i className="fa fa-star" />
+                                    <i className="fa fa-star" />
+                                    <i className="fa fa-star-half-alt" />
                                 </div>
-								<div class="text">{item.text}</div>
+								<div className="text">{item.text}</div>
 							</div>
-							<div class="thumb"><img src={`images/resource/${item.img}`} alt="" /></div>
-							<span class="designation">{item.designation}</span>
-							<h4 class="name">{item.name}</h4>
+							<div className="thumb"><img src={`images/resource/${item.img}`} alt="" /></div>
+							<span className="designation">{item.designation}</span>
+							<h4 className="name">{item.name}</h4>
 						</div>
 					</div>
                 </SwiperSlide>

@@ -1,5 +1,5 @@
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -7,28 +7,28 @@ SwiperCore.use([Autoplay, Pagination]);
 
 const data = [
     {
-        img: "team1-1.jpg",
-        name: "Kevin Hardson",
-        designation: "designer",
+        img: "project-8.jpg",
+        title: "Tech Solutions",
+        categories: "DESIGN / IDEAS",
     },
     {
-        img: "team1-2.jpg",
-        name: "Jessica Brown",
-        designation: "developer",
+        img: "project-9.jpg",
+        title: "Tech Solutions",
+        categories: "DESIGN / IDEAS",
     },
     {
-        img: "team1-3.jpg",
-        name: "Michale Smith",
-        designation: "co founder",
+        img: "project-10.jpg",
+        title: "Tech Solutions",
+        categories: "DESIGN / IDEAS",
     },
     {
-        img: "team1-4.jpg",
-        name: "Michale Smith",
-        designation: "co founder",
+        img: "project-11.jpg",
+        title: "Tech Solutions",
+        categories: "DESIGN / IDEAS",
     }
 ];
 
-const TestimonialsSliderOne = () => {
+const ProjectsSliderTwo = () => {
 
     return (
         <>
@@ -60,23 +60,18 @@ const TestimonialsSliderOne = () => {
                         slidesPerView: 4,
                     },
                 }}
-                className="team-carousel owl-carousel owl-theme"
+                className="project-carousel-three owl-carousel owl-theme"
             >
                 {data.map((item, i) => (
                 <SwiperSlide>
-                    <div className="team-block">
+					<div className="project-block-three">
 						<div className="inner-box">
 							<div className="image-box">
-								<figure className="image"><Link href="/page-team-details"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
-							</div>
-							<div className="info-box">
-								<h4 className="name"><Link href="/page-team-details">{item.name}</Link></h4>
-								<span className="designation">{item.designation}</span>
-								<div className="social-links">
-									<Link href="#"><i className="fab fa-facebook-f" /></Link>
-									<Link href="#"><i className="fab fa-twitter" /></Link>
-									<Link href="#"><i className="fab fa-pinterest-p" /></Link>
-									<Link href="#"><i className="fab fa-instagram" /></Link>
+                            <figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+								<div className="overlay-box">
+                                    <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <h4 className="title"><Link href="/page-project-details">{item.title}</Link></h4>
+								    <span className="cat">{item.categories}</span>
 								</div>
 							</div>
 						</div>
@@ -89,4 +84,4 @@ const TestimonialsSliderOne = () => {
     );
 };
 
-export default TestimonialsSliderOne;
+export default ProjectsSliderTwo;

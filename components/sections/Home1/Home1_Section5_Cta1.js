@@ -6,11 +6,11 @@ export default function Home1_Section5() {
         <>
 
         {/* <!-- Call To Action Two --> */}
-        <section class="call-to-action-six" style={{ backgroundImage: 'url(images/background/6.jpg)'}}>
-            <div class="auto-container">
-                <div class="title-box">
-                    <h1 class="title">IT Solutions & Services Right <br/>At Your Fingertips</h1>
-                    <Link href="/page-services" class="theme-btn btn-style-one"><span class="btn-title">DISCOVER MORE</span></Link>
+        <section className="call-to-action-six" style={{ backgroundImage: 'url(images/background/6.jpg)'}}>
+            <div className="auto-container">
+                <div className="title-box">
+                    <h1 className="title">IT Solutions & Services Right <br/>At Your Fingertips</h1>
+                    <Link href="/page-services" className="theme-btn btn-style-one"><span className="btn-title">DISCOVER MORE</span></Link>
                 </div>
             </div>
         </section>

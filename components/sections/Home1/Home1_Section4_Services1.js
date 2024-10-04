@@ -29,24 +29,24 @@ export default function Home1_Section4() {
         <>
 
         {/* <!-- Start Services Section --> */}
-        <section class="services-section-seven">
-            <div class="auto-container">
-                <div class="sec-title light text-center">
-                    <span class="sub-title">WHAT WE OFFERING</span>
+        <section className="services-section-seven">
+            <div className="auto-container">
+                <div className="sec-title light text-center">
+                    <span className="sub-title">WHAT WE OFFERING</span>
                     <h2>We offer premium services <br />Exclusively for you.</h2>
                 </div>
 
-                <div class="row justify-content-center">
+                <div className="row justify-content-center">
                     {/* <!-- Service Block Seven --> */}
                     {data.map((item, i) => (
-                    <div class="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
-                        <div class="inner-box">
-                            <div class="icon-box">
+                    <div className="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                        <div className="inner-box">
+                            <div className="icon-box">
                                 <i class={`icon flaticon-${item.icon}`} />
                             </div>
-                            <h4 class="title"><Link href="/page-service-details">{item.title}</Link></h4>
-                            <div class="text">{item.text}</div>
-                            <Link href="/page-service-details" class="read-more">Read more <i class="fa fa-arrow-right" /></Link>
+                            <h4 className="title"><Link href="/page-service-details">{item.title}</Link></h4>
+                            <div className="text">{item.text}</div>
+                            <Link href="/page-service-details" className="read-more">Read more <i className="fa fa-arrow-right" /></Link>
                         </div>
                     </div>
                     ))}

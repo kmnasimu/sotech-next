@@ -5,9 +5,9 @@ export default function Home1_Section11() {
     return (
         <>
 
-            <section class="clients-section border-top">
-                <div class="auto-container">
-                    <div class="sponsors-outer">
+            <section className="clients-section border-top">
+                <div className="auto-container">
+                    <div className="sponsors-outer">
                         <ClientSliderOne/>
                     </div>
                 </div>

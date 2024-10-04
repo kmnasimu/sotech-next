@@ -33,31 +33,31 @@ export default function Home1_Section13() {
         <>
 
         {/* <!-- News Section --> */}
-        <section class="news-section">
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <span class="sub-title">FROM THE BLOG</span>
+        <section className="news-section">
+            <div className="auto-container">
+                <div className="sec-title text-center">
+                    <span className="sub-title">FROM THE BLOG</span>
                     <h2>News & Articles</h2>
                 </div>
-                <div class="row">
+                <div className="row">
                     {/* <!-- News Block --> */}
                     {data.map((item, i) => (
-                    <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
+                    <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                        <div className="inner-box">
+                            <div className="image-box">
+                                <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
                                 <span className="date" dangerouslySetInnerHTML={{ __html: item.date }}></span>
                             </div>
-                            <div class="content-box">
-                                <ul class="post-info">
-                                    <li><i class="fa fa-user"></i> by {item.author}</li>
-                                    <li><i class="fa fa-tag"></i> {item.tag}</li>
+                            <div className="content-box">
+                                <ul className="post-info">
+                                    <li><i className="fa fa-user"></i> by {item.author}</li>
+                                    <li><i className="fa fa-tag"></i> {item.tag}</li>
                                 </ul>
-                                <h3 class="title"><Link href="/news-details">{item.title}</Link></h3>
+                                <h3 className="title"><Link href="/news-details">{item.title}</Link></h3>
                             </div>
-                            <div class="bottom-box">
-                                <Link href="/news-details" class="read-more">Read More <i class="fa fa-long-arrow-alt-right" /></Link>
-                                <div class="comments"><i class="fa fa-comments" /> {item.comment}</div>
+                            <div className="bottom-box">
+                                <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                <div className="comments"><i className="fa fa-comments" /> {item.comment}</div>
                             </div>
                         </div>
                     </div>
