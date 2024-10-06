@@ -73,7 +73,7 @@ const ServiceDetails = ({ alternate }) => {
 					{/* Start Services Details Content */}
 					<div className="col-xl-8 col-lg-8">
 						<div className="services-details__content">
-							<img src="images/resource/service-details.jpg" alt />
+							<img src="images/resource/service-details.jpg" alt="" priority />
 							<h3 className="mt-4">Service Overview</h3>
 							<p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </p>
 							<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur adipis icing elit  </p>
@@ -86,11 +86,11 @@ const ServiceDetails = ({ alternate }) => {
 								<div className="feature-list mt-4">
 									<div className="row clearfix">
 										<div className="col-lg-6 col-md-6 col-sm-12 column">
-											<img className="mb-3" src="images/resource/service-d1.jpg" alt />
+											<img className="mb-3" src="images/resource/service-d1.jpg" alt="" priority />
 											<p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>
 										</div>
 										<div className="col-lg-6 col-md-6 col-sm-12 column">
-											<img className="mb-3" src="images/resource/service-d2.jpg" alt />
+											<img className="mb-3" src="images/resource/service-d2.jpg" alt="" priority />
 											<p>Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur temporibus doloribus hic conse quatur copy typing refreshing</p>
 										</div>
 									</div>

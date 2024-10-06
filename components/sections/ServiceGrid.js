@@ -47,12 +47,12 @@ export default function ServiceGrid() {
             <section className="services-section-home2 pb-70 pt-120">
 		        <div className="auto-container">
                     <div className="row">
-                        {data.map((item, i) => (
-                            <div className="col-lg-4 col-md-6" key={i}>
+                        {data.map((item, servicesGrid) => (
+                            <div className="col-lg-4 col-md-6" key={servicesGrid}>
                                 <div className="service-block-two">
                                     <div className="inner-box">
                                         <div className="image-box">
-                                            <figure className="image"><Link href="/page-service-details"><img className="w-100" src={`images/resource/${item.img}`} alt /></Link></figure>
+                                            <figure className="image"><Link href="/page-service-details"><img className="w-100" src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
                                         </div>
                                         <div className="content-box">
                                             <div className="inner">

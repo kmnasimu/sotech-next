@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Autoplay, Pagination]);
 
-const data = [
+const projects = [
     {
         img: "project-8.jpg",
         title: "Tech Solutions",
@@ -62,12 +62,12 @@ const ProjectsSliderTwo = () => {
                 }}
                 className="project-carousel-three owl-carousel owl-theme"
             >
-                {data.map((item, i) => (
-                <SwiperSlide>
+                {projects.map((item, project) => (
+                <SwiperSlide key={project}>
 					<div className="project-block-three">
 						<div className="inner-box">
 							<div className="image-box">
-                            <figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+                            <figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="Image" priority /></Link></figure>
 								<div className="overlay-box">
                                     <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
                                     <h4 className="title"><Link href="/page-project-details">{item.title}</Link></h4>

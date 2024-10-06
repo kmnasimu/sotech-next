@@ -62,12 +62,12 @@ const ProjectsSliderOne = () => {
                 }}
                 className="project-carousel owl-carousel owl-theme"
             >
-                {data.map((item, i) => (
-                <SwiperSlide>
+                {data.map((item, ProjectsBlock) => (
+                <SwiperSlide key={ProjectsBlock}>
                     <div className="project-block">
 						<div className="inner-box">
 							<div className="image-box">
-								<figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+								<figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="Image" priority /></Link></figure>
 								<Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
 							</div>
 							<div className="content-box">

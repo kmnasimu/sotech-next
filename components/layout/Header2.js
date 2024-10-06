@@ -14,16 +14,16 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
         <>
 
         <header className={`main-header header-style-two style-transparent ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
-            <div class="header-top">
-                <div class="inner-container">
-                    <div class="top-left">
-                        <ul class="list-style-one">
-                            <li><i class="fa fa-envelope" /><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                            <li><i class="fa fa-map-marker-alt" /> 88 Broklyn Golden Street. New York</li>
+            <div className="header-top">
+                <div className="inner-container">
+                    <div className="top-left">
+                        <ul className="list-style-one">
+                            <li><i className="fa fa-envelope" /><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                            <li><i className="fa fa-map-marker-alt" /> 88 Broklyn Golden Street. New York</li>
                         </ul>
                     </div>
-                    <div class="top-right">
-                        <ul class="useful-links">
+                    <div className="top-right">
+                        <ul className="useful-links">
                             <li><Link href="#">Help</Link></li>
                             <li><Link href="#">Support</Link></li>
                             <li><Link href="#">Contact</Link></li>
@@ -31,98 +31,98 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     </div>
                 </div>
 
-                <div class="outer-box">
-                    <ul class="social-icon-one">
-                        <li><Link href="#"><span class="fab fa-twitter" /></Link></li>
-                        <li><Link href="#"><span class="fab fa-facebook-square" /></Link></li>
-                        <li><Link href="#"><span class="fab fa-pinterest-p" /></Link></li>
-                        <li><Link href="#"><span class="fab fa-instagram" /></Link></li>
+                <div className="outer-box">
+                    <ul className="social-icon-one">
+                        <li><Link href="#"><span className="fab fa-twitter" /></Link></li>
+                        <li><Link href="#"><span className="fab fa-facebook-square" /></Link></li>
+                        <li><Link href="#"><span className="fab fa-pinterest-p" /></Link></li>
+                        <li><Link href="#"><span className="fab fa-instagram" /></Link></li>
                     </ul>
                 </div>
             </div>
-            <div class="header-lower">
-                <div class="main-box">
-                    <div class="logo-box">
-                        <div className="logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
+            <div className="header-lower">
+                <div className="main-box">
+                    <div className="logo-box">
+                        <div className="logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
                     </div>
-                    <div class="nav-outer">
-                        <nav class="nav main-menu">
+                    <div className="nav-outer">
+                        <nav className="nav main-menu">
                             <NavLinks />
                         </nav>
                     </div>
-                    <div class="outer-box">
-                        <div class="ui-btn-outer">
-                            <button class="ui-btn ui-btn search-btn" onClick={handleToggle}>
-                                <span class="icon lnr lnr-icon-search" />
+                    <div className="outer-box">
+                        <div className="ui-btn-outer">
+                            <button className="ui-btn ui-btn search-btn" onClick={handleToggle}>
+                                <span className="icon lnr lnr-icon-search" />
                             </button>
-                            <Link href="#" class="ui-btn"><i class="lnr-icon-shopping-cart" /></Link>
+                            <Link href="#" className="ui-btn"><i className="lnr-icon-shopping-cart" /></Link>
                         </div>
-                        <div class="mobile-nav-toggler" onClick={handleOpen}><span class="icon lnr-icon-bars" /></div>
+                        <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu">
-                <div class="menu-backdrop" onClick={handleRemove} />
-                <nav class="menu-box">
-                    <div class="upper-box">
-                        <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
-                        <div class="close-btn" onClick={handleRemove}><i class="icon fa fa-times" /></div>
+            <div className="mobile-menu">
+                <div className="menu-backdrop" onClick={handleRemove} />
+                <nav className="menu-box">
+                    <div className="upper-box">
+                        <div className="nav-logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
+                        <div className="close-btn"  onClick={handleRemove}><i className="icon fa fa-times" /></div>
                     </div>
                     <MobileMenu/>
-                    <ul class="contact-list-one">
+                    <ul className="contact-list-one">
                         <li>
-                            <div class="contact-info-box">
-                                <i class="icon lnr-icon-phone-handset" />
-                                <span class="title">Call Now</span>
+                            <div className="contact-info-box">
+                                <i className="icon lnr-icon-phone-handset" />
+                                <span className="title">Call Now</span>
                                 <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
                             </div>
                         </li>
                         <li>
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-envelope1" />
-                                <span class="title">Send Email</span>
+                            <div className="contact-info-box">
+                                <span className="icon lnr-icon-envelope1" />
+                                <span className="title">Send Email</span>
                                 <Link href="mailto:help@company.com">help@company.com</Link>
                             </div>
                         </li>
                         <li>
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-clock" />
-                                <span class="title">Send Email</span>
+                            <div className="contact-info-box">
+                                <span className="icon lnr-icon-clock" />
+                                <span className="title">Send Email</span>
                                 Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                             </div>
                         </li>
                     </ul>
-                    <ul class="social-links">
-                        <li><Link href="#"><i class="fab fa-twitter" /></Link></li>
-                        <li><Link href="#"><i class="fab fa-facebook-f" /></Link></li>
-                        <li><Link href="#"><i class="fab fa-pinterest" /></Link></li>
-                        <li><Link href="#"><i class="fab fa-instagram" /></Link></li>
+                    <ul className="social-links">
+                        <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
+                        <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
+                        <li><Link href="#"><i className="fab fa-pinterest" /></Link></li>
+                        <li><Link href="#"><i className="fab fa-instagram" /></Link></li>
                     </ul>
                 </nav>
             </div>
-            <div class="search-popup">
-                <span class="search-back-drop" onClick={handleToggle} />
-                <button class="close-search" onClick={handleToggle}><span class="fa fa-times" /></button>
-                <div class="search-inner">
+            <div className="search-popup">
+                <span className="search-back-drop" onClick={handleToggle} />
+                <button className="close-search" onClick={handleToggle}><span className="fa fa-times" /></button>
+                <div className="search-inner">
                     <form method="post" action="/">
-                        <div class="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..." required="" />
-                            <button type="submit"><i class="fa fa-search" /></button>
+                        <div className="form-group">
+                            <input type="search" name="search-field" placeholder="Search..." required />
+                            <button type="submit"><i className="fa fa-search" /></button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="sticky-header">
-                <div class="auto-container">
-                    <div class="inner-container">
-                    <div className="logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
-                        <div class="nav-outer">
-                            <nav class="main-menu">
-                                <div class="navbar-collapse show collapse clearfix">
+            <div className="sticky-header">
+                <div className="auto-container">
+                    <div className="inner-container">
+                    <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                        <div className="nav-outer">
+                            <nav className="main-menu">
+                                <div className="navbar-collapse show collapse clearfix">
                                     <MobileMenu/>
                                 </div>
                             </nav>
-                            <div class="mobile-nav-toggler" onClick={handleOpen}><span class="icon lnr-icon-bars" /></div>
+                            <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                         </div>
                     </div>
                 </div>

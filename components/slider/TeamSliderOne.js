@@ -62,12 +62,12 @@ const TestimonialsSliderOne = () => {
                 }}
                 className="team-carousel owl-carousel owl-theme"
             >
-                {data.map((item, i) => (
-                <SwiperSlide>
+                {data.map((item, TeamBlock) => (
+                <SwiperSlide key={TeamBlock}>
                     <div className="team-block">
 						<div className="inner-box">
 							<div className="image-box">
-								<figure className="image"><Link href="/page-team-details"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+								<figure className="image"><Link href="/page-team-details"><img src={`images/resource/${item.img}`} alt="Image" priority /></Link></figure>
 							</div>
 							<div className="info-box">
 								<h4 className="name"><Link href="/page-team-details">{item.name}</Link></h4>

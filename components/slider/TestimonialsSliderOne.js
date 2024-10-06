@@ -59,8 +59,8 @@ const TestimonialsSliderOne = () => {
                 }}
                 className="testimonial-carousel owl-carousel owl-theme"
             >
-                {data.map((item, i) => (
-                <SwiperSlide>
+                {data.map((item, TestimonialBlock) => (
+                <SwiperSlide key={TestimonialBlock}>
                     {/* <!-- Testimonial Block --> */}
 					<div className="testimonial-block-five">
 						<div className="inner-box">
@@ -74,7 +74,7 @@ const TestimonialsSliderOne = () => {
                                 </div>
 								<div className="text">{item.text}</div>
 							</div>
-							<div className="thumb"><img src={`images/resource/${item.img}`} alt="" /></div>
+							<div className="thumb"><img src={`images/resource/${item.img}`} alt="Image" priority /></div>
 							<span className="designation">{item.designation}</span>
 							<h4 className="name">{item.name}</h4>
 						</div>

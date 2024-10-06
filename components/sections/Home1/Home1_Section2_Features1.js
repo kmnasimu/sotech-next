@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const data = [
+const features = [
     {
         icon: "business-011-dollar",
         title: "Global <br />Networking",
@@ -34,8 +34,8 @@ export default function Home1_Section2() {
                 <div className="auto-container">
                     <div className="row row-cols-1 row-cols-sm-3 row-cols-lg-5 justify-content-center">
                         {/* <!-- Feature Block Two --> */}
-                        {data.map((item, i) => (
-                        <div className="feature-block-two col wow fadeInUp">
+                        {features.map((item, featureBlock) => (
+                        <div key={featureBlock} className="feature-block-two col wow fadeInUp">
                             <div className="inner-box ">
                                 <i class={`icon flaticon-${item.icon}`} />
                                 <h4 className="title"><Link href="/page-service-details" dangerouslySetInnerHTML={{ __html: item.title }} /></h4>

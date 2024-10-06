@@ -12,7 +12,7 @@ const TeamDetails = ({ alternate }) => {
 						<div className="row">
 							<div className="col-xl-6 col-lg-6">
 								<div className="team-details__top-left">
-									<div className="team-details__top-img"><img src="images/resource/team-details.jpg" alt />
+									<div className="team-details__top-img"><img src="images/resource/team-details.jpg" alt="" priority />
 										<div className="team-details__big-text" />
 									</div>
 								</div>

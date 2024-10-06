@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const data = [
+const features = [
     {
         icon: "business-011-dollar",
         title: "Business Solution",
@@ -30,8 +30,8 @@ export default function Home2_Section2() {
                     <div className="outer-box">
                         <div className="row justify-content-lg-center">
                             {/* <!-- Feature Block Nine --> */}
-                            {data.map((item, i) => (
-                            <div className="feature-block-nine col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                            {features.map((item, featureBlock) => (
+                            <div key={featureBlock} className="feature-block-nine col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                                 <div className="inner-box ">
                                     <i class={`icon flaticon-${item.icon}`} />
                                     <h4 className="title"><Link href="/page-service-details">{item.title}</Link></h4>

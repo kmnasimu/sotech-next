@@ -27,7 +27,7 @@ export default function Home1_Section12() {
                                 </div>
 
                                 <div className="expert-info-box">
-                                    <figure className="image"><img src="images/resource/expert-group.png" alt="Image" /></figure>
+                                    <figure className="image"><img src="images/resource/expert-group.png" alt="Image" priority /></figure>
                                     <div className="expert-number">+12</div>
                                     <div className="expert-text">We collaborated with <span>150+</span> new start-up</div>
                                 </div>

@@ -9,7 +9,7 @@ const NavLinks = ({ extraClassName }) => {
                 <ul>
                     <li className="dropdown"><Link href="/">Blue Layouts <span className="badge-menu">Blue</span></Link>
                         <ul>
-                            <li><Link href="/index">Home Layout 1</Link></li>
+                            <li><Link href="/">Home Layout 1</Link></li>
                             <li><Link href="/index-2">Home Layout 2</Link></li>
                             <li><Link href="/index-3">Home Layout 3</Link></li>
                             <li><Link href="/index-4">Home Layout 4</Link></li>
@@ -49,7 +49,7 @@ const NavLinks = ({ extraClassName }) => {
                     </li>
                     <li className="dropdown"><Link href="/">Header Styles</Link>
                         <ul>
-                            <li><Link href="/index">Header Style 1</Link></li>
+                            <li><Link href="/">Header Style 1</Link></li>
                             <li><Link href="/index-2">Header Style 2</Link></li>
                             <li><Link href="/index-3">Header Style 3</Link></li>
                             <li><Link href="/index-4">Header Style 4</Link></li>

@@ -31,7 +31,7 @@ const Pricing = () => {
                                 {/* Pricing Block */}
                                 <div className="pricing-block">
                                     <div className="inner-box">
-                                        <figure className="image"><img src="images/resource/pricing-1.png" alt /></figure>
+                                        <figure className="image"><img src="images/resource/pricing-1.png" alt="" priority /></figure>
                                         <h4 className="title">Residential Plan</h4>
                                         <div className="price-box">
                                             <h4 className="price"><sup>$</sup>49</h4>
@@ -51,7 +51,7 @@ const Pricing = () => {
                                 {/* Pricing Block */}
                                 <div className="pricing-block style-two pull-left">
                                     <div className="inner-box">
-                                        <figure className="image"><img src="images/resource/pricing-2.png" alt /></figure>
+                                        <figure className="image"><img src="images/resource/pricing-2.png" alt="" priority /></figure>
                                         <h4 className="title">Basic Plan</h4>
                                         <div className="price-box">
                                             <h4 className="price"><sup>$</sup>29</h4>

@@ -3,7 +3,7 @@ import CounterUp from '../elements/CounterUp'
 
 const Funfact = () => {
 
-    const data = [
+    const counterdata = [
         {
             icon: "business-060-graph",        
             count: "4524",
@@ -29,9 +29,9 @@ const Funfact = () => {
     return (
         <>
 
-            {data.map((item, i) => (
-                <div class="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
-                    <div class="inner">
+            {counterdata.map((item, counterBlock) => (
+                <div key={counterBlock} className="counter-block-four col-lg-3 col-md-6 col-sm-6 wow fadeInUp">
+                    <div className="inner">
                         <i className={`icon flaticon-${item.icon}`} />
                         <div className="count-box">
                             <span className="count-text"><CounterUp count={item.count} time={1} /></span>{item.countsymbol}

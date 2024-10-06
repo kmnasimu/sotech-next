@@ -6,6 +6,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Autoplay, Navigation]);
 
+const bannerSlideData = [
+    {
+        bgImage: 'images/main-slider/s2-1.jpg',
+        animIcon: 'images/main-slider/s2-shape-1.png',
+        subTitle: 'WELCOME TO SOTECH',
+        title: 'Make Your Business Rocket',
+        videoId: 'Fvae8nxzVz4',
+        link: '/page-about',
+        buttonText: 'EXPLORE MORE',
+    },
+];
+
 const BannerSliderTwo = () => {
     const [isOpen, setOpen] = useState(false)
     return (
@@ -25,49 +37,34 @@ const BannerSliderTwo = () => {
                 }}
                 className="banner-carousel owl-carousel owl-theme"
             >                
-                <SwiperSlide>
-                    <div className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/s2-1.jpg)' }} />
-                        <div className="auto-container">
-                            <div className="content-box">
-                                <div className="content-box-inner">
-                                    <div className="anim-icons bounce-y animate-4">
-                                        <figure className="image"><img src="images/main-slider/s2-shape-1.png" alt="" /></figure>
-                                    </div>
-                                    <a onClick={() => setOpen(true)} className="play-btn lightbox-image animate-1" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></a>
-                                    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Fvae8nxzVz4" onClose={() => setOpen(false)} />
-                                    <span className="sub-title animate-2">WELCOME TO SOTECH</span>
-                                    <h1 className="title animate-3">Make Your <br/>Business Rocket</h1>
-                                    <div className="btn-box animate-4">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
 
-                <SwiperSlide>
+                {bannerSlideData.map((slide, bannerSlider) => (
+                <SwiperSlide key={bannerSlider}>
                     <div className="slide-item">
-                        <div className="bg-image" style={{ backgroundImage: 'url(images/main-slider/s2-2.jpg)' }} />
+                        <div className="bg-image" style={{ backgroundImage: `url(${slide.bgImage})` }} />
                         <div className="auto-container">
                             <div className="content-box">
                                 <div className="content-box-inner">
                                     <div className="anim-icons bounce-y animate-4">
-                                        <figure className="image"><img src="images/main-slider/s2-shape-1.png" alt="" /></figure>
+                                        <figure className="image">
+                                            <img src={slide.animIcon} alt="Image" />
+                                        </figure>
                                     </div>
-                                    <a onClick={() => setOpen(true)} className="play-btn lightbox-image animate-1" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></a> 
-                                    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Fvae8nxzVz4" onClose={() => setOpen(false)} />                                   
-                                    <span className="sub-title animate-2">WELCOME TO SOTECH</span>
-                                    <h1 className="title animate-3">Make Your <br/>Business Rocket</h1>
+                                    <a onClick={() => setOpen(true)} className="play-btn lightbox-image animate-1" data-fancybox="gallery" > 
+                                        <i className="icon fa fa-play" aria-hidden="true" />
+                                    </a>
+                                    <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId={slide.videoId} onClose={() => setOpen(false)} />
+                                    <span className="sub-title animate-2">{slide.subTitle}</span>
+                                    <h1 className="title animate-3" dangerouslySetInnerHTML={{ __html: slide.title }} />
                                     <div className="btn-box animate-4">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
+                                        <Link href="{slide.link}" className="theme-btn btn-style-one"><span className="btn-title">{slide.buttonText}</span></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
+                ))}
                 
                 <div className="owl-nav">
                     <div className="owl-prev">

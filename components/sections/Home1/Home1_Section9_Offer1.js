@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video'
 
@@ -15,10 +14,10 @@ export default function Home1_Section9() {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="image-box">
-                                    <figure className="image"><img src="images/resource/image-4.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="images/resource/image-4.jpg" alt="Image" priority /></figure>
                                     <div className="caption-box">
                                         <div className="icon-box">
-                                            <Link onClick={() => setOpen(true)} className="play-now lightbox-image" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></Link>
+                                            <a onClick={() => setOpen(true)} className="play-now lightbox-image" data-fancybox="gallery" data-caption><i className="icon fa fa-play" aria-hidden="true" /></a>
                                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Fvae8nxzVz4" onClose={() => setOpen(false)} />
                                         </div>
                                         <div className="title-box">

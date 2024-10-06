@@ -6,7 +6,7 @@ import Home1_Section3_About1 from "../components/sections/Home1/Home1_Section3_A
 import Home1_Section4_Services1 from "../components/sections/Home1/Home1_Section4_Services1";
 import Home1_Section5_Cta1 from "../components/sections/Home1/Home1_Section5_Cta1";
 import Home1_Section6_Projects1 from "../components/sections/Home1/Home1_Section6_Projects1";
-import Home1_Section7_Testimonials1 from "../components/sections/Home1/Home1_Section7_Testimonials1";
+import Home1_Section7_Testimonials from "../components/sections/Home1/Home1_Section7_Testimonials";
 import Home1_Section8_Funfact1 from "../components/sections/Home1/Home1_Section8_Funfact1";
 import Home1_Section9_Offer1 from "../components/sections/Home1/Home1_Section9_Offer1";
 import Home1_Section10_Team1 from "../components/sections/Home1/Home1_Section10_Team1";
@@ -25,7 +25,7 @@ export default function Home1() {
                 <Home1_Section4_Services1 />
                 <Home1_Section5_Cta1 />
                 <Home1_Section6_Projects1 />
-                <Home1_Section7_Testimonials1 />
+                <Home1_Section7_Testimonials />
                 <Home1_Section8_Funfact1 />
                 <Home1_Section9_Offer1 />
                 <Home1_Section10_Team1 />

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const data = [
+const newsdata = [
     {
         img: "news-1.jpg",
         date: "<b>12</b> OCT",
@@ -41,11 +41,11 @@ export default function Home1_Section13() {
                 </div>
                 <div className="row">
                     {/* <!-- News Block --> */}
-                    {data.map((item, i) => (
-                    <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                    {newsdata.map((item, newsBlock1) => (
+                    <div key={newsBlock1} className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                         <div className="inner-box">
                             <div className="image-box">
-                                <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
+                                <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
                                 <span className="date" dangerouslySetInnerHTML={{ __html: item.date }}></span>
                             </div>
                             <div className="content-box">

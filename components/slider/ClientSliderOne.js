@@ -63,9 +63,9 @@ const ClientSliderOne = () => {
                 }}
                 className="clients-carousel owl-carousel owl-theme"
             > 
-                {data.map((item, i) => (
-                    <SwiperSlide>
-                        <li className="slide-item"> <Link href="/"><img src={`images/resource/${item.img}`} alt /></Link></li>
+                {data.map((item, ClientsSlider) => (
+                    <SwiperSlide key={ClientsSlider}>
+                        <li className="slide-item"> <Link href="/"><img src={`images/resource/${item.img}`} alt="" priority /></Link></li>
                     </SwiperSlide>
                 ))}
             </Swiper> 

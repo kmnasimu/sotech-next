@@ -42,7 +42,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
             <div className="header-lower">
                 <div className="main-box">
                     <div className="logo-box">
-                        <div className="logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
+                        <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
                     </div>
                     <div className="nav-outer">
                         <nav className="nav main-menu">
@@ -68,7 +68,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="menu-backdrop" onClick={handleRemove} />		
                 <nav className="menu-box">
                     <div className="upper-box">
-                        <div className="nav-logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
+                        <div className="nav-logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
                         <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                     </div>
                     <ul className="navigation clearfix">
@@ -111,7 +111,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="search-inner">
                     <form method="post" action="/">
                         <div className="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..." required="" />
+                            <input type="search" name="search-field" placeholder="Search..." required />
                             <button type="submit"><i className="fa fa-search" /></button>
                         </div>
                     </form>
@@ -121,7 +121,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="auto-container">
                     <div className="inner-container">					
                         <div className="logo">
-                            <Link href="/"><Image src={LogoWhite} title='Sotech' /></Link>
+                            <Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link>
                         </div>					
                         <div className="nav-outer">						
                             <nav className="main-menu">

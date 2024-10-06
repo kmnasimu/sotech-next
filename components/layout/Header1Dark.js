@@ -45,7 +45,7 @@ const Header1Dark = ({ handleOpen, handleRemove, searchToggle, handleToggle, scr
                     <div className="main-box">
 
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
+                            <div className="logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
                         </div>
 
                         {/*Nav Box*/}
@@ -65,7 +65,7 @@ const Header1Dark = ({ handleOpen, handleRemove, searchToggle, handleToggle, scr
                             </div>
 
                             {/*Mobile Nav toggler*/}
-                            <div className="mobile-nav-toggler"><span className="icon lnr-icon-bars" /></div>
+                            <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@ const Header1Dark = ({ handleOpen, handleRemove, searchToggle, handleToggle, scr
                     {/* Here Menu Will Come Automatically Via Javascript / Same Menu as in Header */}
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
-                            <div className="close-btn"><i className="icon fa fa-times" /></div>
+                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
+                            <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu />
                         <ul className="contact-list-one">
@@ -112,11 +112,11 @@ const Header1Dark = ({ handleOpen, handleRemove, searchToggle, handleToggle, scr
 
                 {/* Header Search */}
                 <div className="search-popup">
-                    <span className="search-back-drop" />
+                    <span className="search-back-drop" onClick={handleToggle} />
                     <button className="close-search"  onClick={handleToggle}><span className="fa fa-times" /></button>
 
                     <div className="search-inner">
-                        <form method="post" action="index">
+                        <form method="post" action="/">
                             <div className="form-group">
                                 <input type="search" name="search-field" placeholder="Search..." required />
                                 <button type="submit"><i className="fa fa-search" /></button>
@@ -133,7 +133,7 @@ const Header1Dark = ({ handleOpen, handleRemove, searchToggle, handleToggle, scr
                         <div className="inner-container">
                             {/* Logo */}
                             <div className="logo">
-                                <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Sotech' /></Link></div>
+                                <div className="nav-logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
                             </div>
 
                             {/* Right Col */}

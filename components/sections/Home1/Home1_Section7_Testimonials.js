@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import TestimonialsSliderOne from '../../slider/TestimonialsSliderOne';
 
 export default function Home1_Section7() {

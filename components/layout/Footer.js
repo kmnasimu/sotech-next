@@ -16,7 +16,7 @@ const Footer = () => {
                             {/*Footer Column*/}
                             <div className="footer-column col-lg-3 col-sm-6">
                                 <div className="footer-widget about-widget">
-                                    <div className="logo"><Link href="/"><Image src={LogoDark} title='Sotech' /></Link></div>
+                                    <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
                                     <div className="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
                                     <ul className="social-icon-two">
                                         <li><Link href="/"><i className="fab fa-twitter" /></Link></li>
@@ -62,22 +62,22 @@ const Footer = () => {
                                     <div className="widget-content">
                                         <div className="outer clearfix">
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-1.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-1.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-2.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-2.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-3.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-3.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-4.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-4.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-5.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-5.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-6.jpg" alt /></Link>
+                                                <Link href="/"><img src="/images/resource/project-thumb-6.jpg" alt="" priority /></Link>
                                             </figure>
                                         </div>
                                     </div>

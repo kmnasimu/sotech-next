@@ -25,7 +25,7 @@ export default function Home1_Section3() {
 
                                 <div className="btn-box">
                                     <div className="founder-info">
-                                        <div className="thumb"><img src="images/resource/thumb-2.png" alt="" /></div>
+                                        <div className="thumb"><img src="images/resource/thumb-2.png" alt="Image" priority /></div>
                                         <h5 className="name">Jessica brown</h5>
                                         <span className="designation">Founder of company</span>
                                     </div>
@@ -37,11 +37,11 @@ export default function Home1_Section3() {
                         {/* <!-- Image Column --> */}
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-1.jpg" alt="" /></figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-2.jpg" alt="" /></figure>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-1.jpg" alt="Image" priority /></figure>
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-2.jpg" alt="Image" priority /></figure>
                                 <div className="experience bounce-y">
                                     <div className="inner">
-                                        <i className="icon flaticon-business-018-startup"></i>
+                                        <i className="icon flaticon-business-018-startup" />
                                         <div className="text"><strong>30+</strong> Years of <br/>experience</div>
                                     </div>
                                 </div>

@@ -31,11 +31,11 @@ const TestimonialGrid = () => {
                 <div className="auto-container">
                     <div className="row">
                         {/* Testimonial Column */}
-                        {data.map((item, i) => (
-                        <div className="col-lg-4 col-sm-6">
+                        {data.map((item, testimonialInner) => (
+                        <div key={testimonialInner} className="col-lg-4 col-sm-6">
                             <div className="testimonial-block">
                                 <div className="inner-box">
-                                    <figure className="thumb"><img src={`images/resource/${item.img}`} alt /></figure>
+                                    <figure className="thumb"><img src={`images/resource/${item.img}`} alt="" priority /></figure>
                                     <h5 className="reason">{item.reason}</h5>
                                     <div className="rating">
                                         <i className="fa fa-star" />

@@ -35,7 +35,7 @@ const ProjectGrid = ({ addClass }) => {
                                 {/* Project Block */}
                                 <div className="project-block-six">
                                     <div className="inner-box">
-                                        <figure className="image"><Link href="/page-project-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
+                                        <figure className="image"><Link href="/page-project-details"><img src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
                                         <div className="content-box">
                                         <div className="shape-3" />
                                             <div className="inner">

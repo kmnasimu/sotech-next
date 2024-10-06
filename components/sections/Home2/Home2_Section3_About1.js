@@ -57,8 +57,8 @@ export default function Home2_Section3() {
                         {/* <!-- Image Column --> */}
                         <div className="image-column col-lg-6 col-md-12 col-sm-12 order-lg-0">
                             <div className="inner-column wow fadeInLeft">
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-5.jpg" alt="" /></figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-6.jpg" alt="" /></figure>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-5.jpg" alt="Image" priority /></figure>
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-6.jpg" alt="Image" priority /></figure>
                             </div>
                         </div>
                     </div>

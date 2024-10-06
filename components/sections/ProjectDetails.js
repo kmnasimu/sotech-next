@@ -10,7 +10,7 @@ const ProjectDetails = ({ alternate }) => {
 					<div className="row">
 						<div className="col-xl-12">
 							<div className="project-details__top">
-								<div className="project-details__img"><img src="images/resource/project-details.jpg" alt /></div>
+								<div className="project-details__img"><img src="images/resource/project-details.jpg" alt="" priority /></div>
 							</div>
 						</div>
 					</div>

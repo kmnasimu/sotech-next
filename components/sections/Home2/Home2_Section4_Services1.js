@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const data = [
+const services = [
     {
         icon: "business-012-startup",
         title: "Website <br/>Development",
@@ -51,8 +51,8 @@ export default function Home2_Section4() {
                     </div>
 
                     {/* <!-- Service Block Four --> */}
-                    {data.map((item, i) => (
-                    <div className="service-block-six col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
+                    {services.map((item, serviceBlock) => (
+                    <div key={serviceBlock} className="service-block-six col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
                         <div className="inner-box ">
                             <div className="icon-box">
                                 <i class={`icon flaticon-${item.icon}`} />
