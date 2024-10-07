@@ -7,7 +7,7 @@ import Header3 from './Header3';
 import Header4 from './Header4';
 import PageHead from './PageHead';
 
-const Layout = ({ children, HeaderStyle, darkMode}) => {
+const Layout = ({ children, HeaderStyle, FooterStyle, styleMode}) => {
     const [searchToggle, setSearchToggled] = useState(false);
     const [scroll, setScroll] = useState(0)
     const handleToggle = () => setSearchToggled(!searchToggle);
@@ -37,16 +37,18 @@ const Layout = ({ children, HeaderStyle, darkMode}) => {
     }, []);
 
 
-    useEffect (() =>
-    {
-        if (darkMode === "1") {
+    useEffect(() => {
+        if (styleMode === "Dark") {
             document.body.classList.add("dark-mode");
-            document.body.classList.remove("light-mode");
+            document.body.classList.remove("light-mode", "yellow-mode");
+        } else if (styleMode === "Yellow") {
+            document.body.classList.add("yellow-mode");
+            document.body.classList.remove("light-mode", "dark-mode");
         } else {
             document.body.classList.add("light-mode");
-            document.body.classList.remove("dark-mode");
+            document.body.classList.remove("dark-mode", "yellow-mode");
         }
-    });
+    }, [styleMode]);
 
 
     return (
@@ -64,10 +66,7 @@ const Layout = ({ children, HeaderStyle, darkMode}) => {
 
                 {children}
 
-                <Footer/>
-
-                {/*!FooterStyle && <Footer />}
-                {FooterStyle === "two" && <Footer2 /> */}
+                {!FooterStyle && <Footer />}
             </div>
             {/* <BackToTop /> */}
 

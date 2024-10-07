@@ -1,0 +1,74 @@
+import Link from 'next/link';
+import React from 'react';
+import SwiperCore, { Autoplay, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+SwiperCore.use([Autoplay, Navigation]);
+
+const BannerSliderSeven = () => {
+
+
+    return (
+        <>
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={30}
+                loop={true}
+                autoplay={{
+                    delay: 5000,
+                    disableOnInteraction: false
+                }}
+                navigation={{
+                    clickable: true,
+                    prevEl: ".owl-prev",
+                    nextEl: ".owl-next",
+                }}
+                className="banner-carousel owl-carousel owl-theme"
+            >
+                <SwiperSlide>
+                <div class="slide-item">
+                    <div class="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-1.jpg)'}} />
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <span class="sub-title animate-2">WELCOME TO OUR COMPANY</span>
+                            <h1 class="title animate-3">Enhanced Investment & Business</h1>
+                            <div class="btn-box animate-4">
+                                <Link href="page-about" class="theme-btn btn-style-one"><span class="btn-title">EXPLORE MORE</span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <div class="slide-item">
+                    <div class="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-2.jpg)'}} />
+                    <div class="auto-container">
+                        <div class="content-box">
+                            <span class="sub-title animate-2">WELCOME TO OUR COMPANY</span>
+                            <h1 class="title animate-3">Enhanced Investment & Business</h1>
+                            <div class="btn-box animate-4">
+                                <Link href="/page-about" class="theme-btn btn-style-one"><span class="btn-title">EXPLORE MORE</span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </SwiperSlide>
+                
+                <div className="owl-nav">
+                    <div className="owl-prev">
+                        <span className="fa fa-chevron-left"></span>
+                    </div>
+                    <div className="owl-next">
+                        <span className="fa fa-chevron-right"></span>
+                    </div>
+                </div>
+
+                
+            </Swiper>
+
+        </>
+    );
+};
+
+export default BannerSliderSeven;

@@ -6,10 +6,10 @@ export default function Home2_Section8() {
         <>
 
             {/* <!-- Fun Fact Section --> */}
-            <section class="fun-fact-section-three style-two" style={{backgroundImage: 'url(images/icons/shape-tm-5.png)'}}>
-                <div class="auto-container">
-                    <div class="fact-counter">
-                        <div class="row">
+            <section className="fun-fact-section-three style-two" style={{backgroundImage: 'url(images/icons/shape-tm-5.png)'}}>
+                <div className="auto-container">
+                    <div className="fact-counter">
+                        <div className="row">
                             <Funfact/>
                         </div>
                     </div>

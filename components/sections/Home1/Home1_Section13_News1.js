@@ -46,7 +46,7 @@ export default function Home1_Section13() {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
-                                <span className="date" dangerouslySetInnerHTML={{ __html: item.date }}></span>
+                                <span className="date" dangerouslySetInnerHTML={{ __html: item.date }} />
                             </div>
                             <div className="content-box">
                                 <ul className="post-info">

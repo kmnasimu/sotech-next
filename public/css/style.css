@@ -3888,6 +3888,7 @@ Section Title
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  z-index: 9;
 }
 @media (max-width: 1199.98px) {
   .banner-section-two .banner-carousel .owl-nav {

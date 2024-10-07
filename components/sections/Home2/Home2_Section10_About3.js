@@ -7,36 +7,36 @@ export default function Home2_Section10() {
         <>
 
             {/* <!-- About Section four --> */}
-            <section class="about-section-four">
-                <div class="auto-container">
-                    <div class="row">
-                        <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2 wow fadeInRight" data-wow-delay="600ms">
-                            <div class="inner-column">
-                                <div class="sec-title">
-                                    <span class="sub-title">WHY CHOOSE US</span>
+            <section className="about-section-four">
+                <div className="auto-container">
+                    <div className="row">
+                        <div className="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2 wow fadeInRight" data-wow-delay="600ms">
+                            <div className="inner-column">
+                                <div className="sec-title">
+                                    <span className="sub-title">WHY CHOOSE US</span>
                                     <h2>Our goal is ensure to IT Business Services.</h2>
-                                    <div class="text">With Sotech, we've decided of passages of lorem free market need available, but the majority have alteration in some form, by injected humour, or randomised words</div>
+                                    <div className="text">With Sotech, we've decided of passages of lorem free market need available, but the majority have alteration in some form, by injected humour, or randomised words</div>
                                 </div>
-                                <blockquote class="blockquote-style-one">We possess over 35 years of expertise in Digital Agency Services solutions in town.</blockquote>
-                                <div class="btn-box">
-                                    <div class="">
-                                        <Link href="/page-about" class="theme-btn btn-style-one"><span class="btn-title">Discover more</span></Link>
+                                <blockquote className="blockquote-style-one">We possess over 35 years of expertise in Digital Agency Services solutions in town.</blockquote>
+                                <div className="btn-box">
+                                    <div className="">
+                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     </div>
-                                    <div class="founder-info">
-                                        <div class="thumb"><img src="images/resource/thumb-1.jpg" alt="" /></div>
-                                        <h5 class="name">Jon Martin</h5>
-                                        <span class="designation">Co Founder</span>
+                                    <div className="founder-info">
+                                        <div className="thumb"><img src="images/resource/thumb-1.jpg" alt="" /></div>
+                                        <h5 className="name">Jon Martin</h5>
+                                        <span className="designation">Co Founder</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         {/* <!-- Image Column --> */}
-                        <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                            <div class="inner-column wow fadeInLeft">
-                                <span class="float-text">Sotech</span>
-                                <figure class="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-7.jpg" alt="" /></figure>
-                                <figure class="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-8.jpg" alt="" /></figure>
-                                <div class="icon-box"><img src="images/resource/icon-logo-3.png" alt="" /></div>
+                        <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                            <div className="inner-column wow fadeInLeft">
+                                <span className="float-text">Sotech</span>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about-7.jpg" alt="" /></figure>
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about-8.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="images/resource/icon-logo-3.png" alt="" /></div>
                             </div>
                         </div>
                     </div>

@@ -12,83 +12,83 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
         <>
 
         <header className={`main-header header-style-six style-two ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
-            <div class="header-top">
-                <div class="auto-container">
-                    <div class="header-top-inner">
-                        <div class="inner-container">
-                            <div class="top-left">
-                                <ul class="list-style-one">
-                                    <li><i class="fa fa-envelope" /><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                    <li><i class="fa fa-map-marker-alt" />88 Broklyn Golden Street. New York</li>
+            <div className="header-top">
+                <div className="auto-container">
+                    <div className="header-top-inner">
+                        <div className="inner-container">
+                            <div className="top-left">
+                                <ul className="list-style-one">
+                                    <li><i className="fa fa-envelope" /><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><i className="fa fa-map-marker-alt" />88 Broklyn Golden Street. New York</li>
                                 </ul>
                             </div>
 
-                            <div class="top-right">
-                                <ul class="useful-links">
+                            <div className="top-right">
+                                <ul className="useful-links">
                                     <li><Link href="#">Help</Link></li>
                                     <li><Link href="#">Support</Link></li>
                                     <li><Link href="#">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="outer-box">
-                            <ul class="social-icon-one">
-                                <li><Link href="#"><span class="fab fa-twitter" /></Link></li>
-                                <li><Link href="#"><span class="fab fa-facebook-square" /></Link></li>
-                                <li><Link href="#"><span class="fab fa-pinterest-p" /></Link></li>
-                                <li><Link href="#"><span class="fab fa-instagram" /></Link></li>
+                        <div className="outer-box">
+                            <ul className="social-icon-one">
+                                <li><Link href="#"><span className="fab fa-twitter" /></Link></li>
+                                <li><Link href="#"><span className="fab fa-facebook-square" /></Link></li>
+                                <li><Link href="#"><span className="fab fa-pinterest-p" /></Link></li>
+                                <li><Link href="#"><span className="fab fa-instagram" /></Link></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-lower">
-                <div class="auto-container">
-                    <div class="header-lower-inner">
-                        <div class="main-box">
-                            <div class="logo-box">
+            <div className="header-lower">
+                <div className="auto-container">
+                    <div className="header-lower-inner">
+                        <div className="main-box">
+                            <div className="logo-box">
                                 <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
                             </div>
-                            <div class="nav-outer">
-                                <nav class="nav main-menu">
+                            <div className="nav-outer">
+                                <nav className="nav main-menu">
                                     <NavLinks/>
                                 </nav>
-                                <div class="outer-box">
-                                    <Link href="/page-contact" class="theme-btn btn-style-one"><span class="btn-title">BOOK A CONSULTATION</span></Link>
-                                    <div class="mobile-nav-toggler" onClick={handleOpen}><span class="icon lnr-icon-bars" /></div>
+                                <div className="outer-box">
+                                    <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">BOOK A CONSULTATION</span></Link>
+                                    <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu">
-                <div class="menu-backdrop" onClick={handleRemove} />
-                <nav class="menu-box">
+            <div className="mobile-menu">
+                <div className="menu-backdrop" onClick={handleRemove} />
+                <nav className="menu-box">
                     <div className="upper-box">
                         <div className="nav-logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
                         <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                     </div>
                     <MobileMenu/>
-                    <ul class="contact-list-one">
+                    <ul className="contact-list-one">
                         <li>
-                            <div class="contact-info-box">
-                                <i class="icon lnr-icon-phone-handset" />
-                                <span class="title">Call Now</span>
+                            <div className="contact-info-box">
+                                <i className="icon lnr-icon-phone-handset" />
+                                <span className="title">Call Now</span>
                                 <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
                             </div>
                         </li>
                         <li>
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-envelope1" />
-                                <span class="title">Send Email</span>
+                            <div className="contact-info-box">
+                                <span className="icon lnr-icon-envelope1" />
+                                <span className="title">Send Email</span>
                                 <Link href="mailto:help@company.com">help@company.com</Link>
                             </div>
                         </li>
                         <li>
-                            <div class="contact-info-box">
-                                <span class="icon lnr-icon-clock" />
-                                <span class="title">Send Email</span>
+                            <div className="contact-info-box">
+                                <span className="icon lnr-icon-clock" />
+                                <span className="title">Send Email</span>
                                 Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                             </div>
                         </li>

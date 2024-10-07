@@ -33,14 +33,14 @@ export default function Home2_Section13() {
         <>
 
         {/* <!-- News Section --> */}
-        <section class="news-section alternate">
-            <div class="bg-shape"></div>
-            <div class="auto-container">
-                <div class="sec-title text-center light">
-                    <span class="sub-title">from the blog</span>
+        <section className="news-section alternate">
+            <div className="bg-shape"></div>
+            <div className="auto-container">
+                <div className="sec-title text-center light">
+                    <span className="sub-title">from the blog</span>
                     <h2>News & Articles</h2>
                 </div>
-                <div class="row">
+                <div className="row">
                     {/* <!-- News Block --> */}
                     {newsdata.map((item, newsBlock1) => (
                     <div key={newsBlock1} className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">

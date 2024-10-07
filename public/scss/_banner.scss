@@ -292,6 +292,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-end;
+        z-index: 9;
         @include media-breakpoint-down(xl){
             margin-right: 35px;
         }
