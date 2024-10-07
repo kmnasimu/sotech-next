@@ -18,7 +18,7 @@ import Home2_Section14_Cta1 from "../components/sections/Home2/Home2_Section14_C
 export default function Home2() {
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout HeaderStyle="three">
                 <Home2_Section1_Slider1 />
                 <Home2_Section2_Features1 />
                 <Home2_Section3_About1 />

@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import BackToTop from '../elements/BackToTop';
 import Footer from './Footer';
 import Header1 from './Header1';
-import Header1Dark from './Header1Dark';
 import Header2 from './Header2';
-import Header2Dark from './Header2Dark';
+import Header3 from './Header3';
+import Header4 from './Header4';
 import PageHead from './PageHead';
 
 const Layout = ({ children, HeaderStyle, darkMode}) => {
@@ -56,9 +56,9 @@ const Layout = ({ children, HeaderStyle, darkMode}) => {
 
                 {!HeaderStyle && <Header1 handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
                 {HeaderStyle === "one" && <Header1 handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
-                {HeaderStyle === "onedark" && <Header1Dark handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
                 {HeaderStyle === "two" && <Header2 handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
-                {HeaderStyle === "twodark" && <Header2Dark handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
+                {HeaderStyle === "three" && <Header3 handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
+                {HeaderStyle === "four" && <Header4 handleOpen={handleOpen} handleRemove={handleRemove} searchToggle={searchToggle} handleToggle={handleToggle} scroll={scroll} />}
 
                 {/* <Sidebar /> */}
 
