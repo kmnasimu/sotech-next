@@ -53,6 +53,9 @@ body.dark-mode .about-section-ten .content-bottom .call-info-box-outer,
 body.dark-mode .news-section-two {
   background-color: #000;
 }
+body.dark-mode .main-menu .navigation > li > ul > li > ul > li > a {
+  color: var(--dark-color1);
+}
 body.dark-mode .service-block .inner-box {
   border-color: var(--dark-color1);
 }

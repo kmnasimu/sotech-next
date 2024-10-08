@@ -66,6 +66,9 @@ body,
   background-color: #000;
 }
 
+.main-menu .navigation > li > ul > li > ul > li > a{
+  color:var(--dark-color1)
+}
 
 //border dark color 1
 .service-block .inner-box {

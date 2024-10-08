@@ -6,7 +6,7 @@ export default function Home4_Section4() {
     return (
         <>
 
-        <section className="project-section-five">
+        <section className="project-section-five" id="projects">
             <div className="auto-container">
                 <div className="sec-title light">
                     <div className="row">

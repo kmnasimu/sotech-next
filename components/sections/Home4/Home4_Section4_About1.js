@@ -5,7 +5,7 @@ export default function Home4_Section4() {
     return (
         <>
 
-        <section className="about-section-seven pt-0">
+        <section className="about-section-seven pt-0" id="about">
             <div className="auto-container">
                 <div className="row">
                     <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInLeft" data-wow-delay="600ms">

@@ -34,7 +34,7 @@ export default function Home4_Section3() {
     return (
         <>
 
-        <section className="services-section-three">
+        <section className="services-section-three" id="services">
             <div className="auto-container">
                 <div className="sec-title text-center">
                     <span className="sub-title">Services we’re offering</span>
