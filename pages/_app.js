@@ -5,6 +5,8 @@ import "swiper/swiper.min.css";
 import '../public/css/bootstrap.min.css';
 import '../public/css/style.css';
 import '../public/css/style-dark.css';
+import '../public/css/style-color-red.css';
+import '../public/css/style-color-yellow.css';
 import { useEffect, useState } from "react";
 
 function MyApp({ Component, pageProps }) {

@@ -10,14 +10,10 @@ $theme-color3: #f4f5f8;
 $theme-color-light: #ffffff;
 $theme-color-dark: #000000;
 
-
-
 // text color over theme color bg
 $text-color-over-bg-theme-color1: #fff;
 $text-color-over-bg-theme-color2: #fff;
 $text-color-over-bg-theme-color3: #fff;
-
-
 
 :root {
 
@@ -33,12 +29,9 @@ $text-color-over-bg-theme-color3: #fff;
   --theme-color-light: #{$theme-color-light};
   --theme-color-dark: #{$theme-color-dark};
 
-
   --text-color-bg-theme-color1: #{$text-color-over-bg-theme-color1};
   --text-color-bg-theme-color2: #{$text-color-over-bg-theme-color2};
-  --text-color-bg-theme-color3: #{$text-color-over-bg-theme-color3};
-
-
+  --text-color-bg-theme-color3: #{$text-color-over-bg-theme-color3};  
   
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
@@ -49,7 +42,6 @@ $text-color-over-bg-theme-color3: #fff;
   
   --text-color-light: var(--theme-color-light);
   --bg-color-light: var(--theme-color-light);
-
 
   //text heading color
   --text-color:         #6A6F78;

@@ -33,7 +33,7 @@ export default function Home2_Section13() {
         <>
 
         {/* <!-- News Section --> */}
-        <section className="news-section alternate">
+        <section className="news-section alternate" id="news">
             <div className="bg-shape"></div>
             <div className="auto-container">
                 <div className="sec-title text-center light">

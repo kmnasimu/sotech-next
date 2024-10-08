@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Autoplay, Navigation]);
 
-const BannerSliderSeven = () => {
+const BannerSliderThree = () => {
 
 
     return (
@@ -26,14 +26,14 @@ const BannerSliderSeven = () => {
                 className="banner-carousel owl-carousel owl-theme"
             >
                 <SwiperSlide>
-                <div class="slide-item">
-                    <div class="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-1.jpg)'}} />
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <span class="sub-title animate-2">WELCOME TO OUR COMPANY</span>
-                            <h1 class="title animate-3">Enhanced Investment & Business</h1>
-                            <div class="btn-box animate-4">
-                                <Link href="page-about" class="theme-btn btn-style-one"><span class="btn-title">EXPLORE MORE</span></Link>
+                <div className="slide-item">
+                    <div className="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-1.jpg)'}} />
+                    <div className="auto-container">
+                        <div className="content-box">
+                            <span className="sub-title animate-2">WELCOME TO OUR COMPANY</span>
+                            <h1 className="title animate-3">Enhanced Investment & Business</h1>
+                            <div className="btn-box animate-4">
+                                <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
                             </div>
                         </div>
                     </div>
@@ -41,14 +41,14 @@ const BannerSliderSeven = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                <div class="slide-item">
-                    <div class="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-2.jpg)'}} />
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <span class="sub-title animate-2">WELCOME TO OUR COMPANY</span>
-                            <h1 class="title animate-3">Enhanced Investment & Business</h1>
-                            <div class="btn-box animate-4">
-                                <Link href="/page-about" class="theme-btn btn-style-one"><span class="btn-title">EXPLORE MORE</span></Link>
+                <div className="slide-item">
+                    <div className="bg-image" style={{backgroundImage: 'url(images/main-slider/s3-2.jpg)'}} />
+                    <div className="auto-container">
+                        <div className="content-box">
+                            <span className="sub-title animate-2">WELCOME TO OUR COMPANY</span>
+                            <h1 className="title animate-3">Enhanced Investment & Business</h1>
+                            <div className="btn-box animate-4">
+                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
                             </div>
                         </div>
                     </div>
@@ -71,4 +71,4 @@ const BannerSliderSeven = () => {
     );
 };
 
-export default BannerSliderSeven;
+export default BannerSliderThree;

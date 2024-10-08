@@ -29,7 +29,7 @@ export default function Home1_Section4() {
         <>
 
         {/* <!-- Start Services Section --> */}
-        <section className="services-section-seven">
+        <section className="services-section-seven" id="services">
             <div className="auto-container">
                 <div className="sec-title light text-center">
                     <span className="sub-title">WHAT WE OFFERING</span>

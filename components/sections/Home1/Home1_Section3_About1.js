@@ -6,7 +6,7 @@ export default function Home1_Section3() {
         <>
 
             {/* <!-- About Section --> */}
-            <section className="about-section">
+            <section className="about-section" id="about">
                 <div className="auto-container">
                     <div className="row">
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-lg-2 wow fadeInRight" data-wow-delay="600ms">

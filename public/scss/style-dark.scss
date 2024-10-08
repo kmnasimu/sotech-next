@@ -1,13 +1,10 @@
 body.dark-mode{
-//Root for dark
-:root {
-  --dark-color1: #0F0F0F;
-  --dark-color2: #181818;
-  --dark-color3: #2b242b;
-  --text-color: #a3a5aa;
-  // --theme-color1: #dee0e4;
-}
 
+--dark-color1: #0F0F0F;
+--dark-color2: #181818;
+--dark-color3: #2b242b;
+--text-color: #a3a5aa;
+--theme-color1: #dee0e4;
 
 //dark color1
 body,
@@ -16,6 +13,7 @@ body,
 .feature-block-two .inner-box,
 .about-section,
 .project-section,
+.pricing-section-two,
 .testimonial-block-five .inner-box,
 .contact-section-three .content-column .call-info-box,
 .about-section-four .content-column .blockquote-style-one,
@@ -167,10 +165,12 @@ body,
 }
 
 //bg image unset
+.project-section-four,
+.project-section,
 .offer-section-five:before,
 .contact-section-three:after,
 .pricing-section-two {
-  background-image: unset;
+  background-image: unset !important;
 }
 
 //bg image
@@ -217,5 +217,4 @@ body,
 .clients-carousel .slide-item img {
   filter: brightness(0) invert(1);
 }
-
 }

@@ -37,7 +37,7 @@ export default function Home2_Section4() {
         <>
 
         {/* <!-- Services Section Four --> */}
-        <section className="services-section-six">
+        <section className="services-section-six" id="services">
             <div className="anim-icons">
                 <span className="icon icon-lines-9-top bounce-x" />
                 <span className="icon icon-dots-9-top bounce-y" />

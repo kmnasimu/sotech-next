@@ -112,7 +112,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     </form>
                 </div>
             </div>
-            <div className="sticky-header">
+            <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
                 <div className="auto-container">
                     <div className="inner-container">
                     <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>

@@ -5,7 +5,7 @@ export default function Home3_Section3() {
     return (
         <>
             	
-            <section className="project-section-four" style={{backgroundImage: 'url(images/icons/shape-tm-2.jpg)'}}>
+            <section className="project-section-four" id="projects" style={{backgroundImage: 'url(images/icons/shape-tm-2.jpg)'}}>
                 <div className="auto-container">
                     <div className="sec-title">
                         <div className="row">

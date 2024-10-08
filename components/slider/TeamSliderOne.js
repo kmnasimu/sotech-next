@@ -33,7 +33,7 @@ const TestimonialsSliderOne = () => {
     return (
         <>
             <Swiper
-                slidesPerView={4}
+                slidesPerView={3}
                 spaceBetween={30}
                 loop={true}
                 autoplay={{
@@ -57,7 +57,7 @@ const TestimonialsSliderOne = () => {
                         slidesPerView: 3,
                     },
                     1350: {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                     },
                 }}
                 className="team-carousel owl-carousel owl-theme"

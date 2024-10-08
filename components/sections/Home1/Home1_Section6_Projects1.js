@@ -6,7 +6,7 @@ export default function Home1_Section6() {
         <>
 
         {/* <!-- Project Section --> */}
-        <section className="project-section pb-0" style={{backgroundImage: 'url(./images/icons/shape-tm-2.jpg)'}}>
+        <section className="project-section pb-0" id="projects" style={{backgroundImage: 'url(./images/icons/shape-tm-2.jpg)'}}>
             <div className="auto-container">
                 <div className="sec-title">
                     <div className="row">

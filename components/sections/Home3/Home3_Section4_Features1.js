@@ -34,7 +34,7 @@ export default function Home3_Section4() {
         <>
             	
             	
-	<section className="features-section-seven">
+	<section className="features-section-seven" id="services">
 		<div className="auto-container">
 			<div className="row">
 				<div className="title-column col-lg-6 col-md-12 col-sm-12">

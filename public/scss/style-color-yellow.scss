@@ -1,3 +1,5 @@
+body.yellow-mode{
+
 @function hexToRGB($hex) {
   @return red($hex), green($hex), blue($hex);
 }
@@ -12,22 +14,34 @@ $text-color-over-bg-theme-color1: #fff;
 $text-color-over-bg-theme-color2: #000;
 $text-color-over-bg-theme-color3: #fff;
 
-:root {
+//theme colors RGB
+--theme-color1-rgb: #{hexToRGB($theme-color1)};
+--theme-color2-rgb: #{hexToRGB($theme-color2)};
+--theme-color3-rgb: #{hexToRGB($theme-color3)};
 
-  //theme colors RGB
-  --theme-color1-rgb: #{hexToRGB($theme-color1)};
-  --theme-color2-rgb: #{hexToRGB($theme-color2)};
-  --theme-color3-rgb: #{hexToRGB($theme-color3)};
+//theme color
+--theme-color1: #{$theme-color1};
+--theme-color2: #{$theme-color2};
+--theme-color3: #{$theme-color3};
 
-  //theme color
-  --theme-color1: #{$theme-color1};
-  --theme-color2: #{$theme-color2};
-  --theme-color3: #{$theme-color3};
-  
-  --text-color-bg-theme-color1: #{$text-color-over-bg-theme-color1};
-  --text-color-bg-theme-color2: #{$text-color-over-bg-theme-color2};
-  --text-color-bg-theme-color3: #{$text-color-over-bg-theme-color3};
-}
+--text-color-bg-theme-color1: #{$text-color-over-bg-theme-color1};
+--text-color-bg-theme-color2: #{$text-color-over-bg-theme-color2};
+--text-color-bg-theme-color3: #{$text-color-over-bg-theme-color3};
+
+--bg-theme-color1: var(--theme-color1);
+--bg-theme-color2: var(--theme-color2);
+--bg-theme-color3: var(--theme-color3);
+--border-theme-color1: var(--theme-color1);
+--border-theme-color2: var(--theme-color2);
+--border-theme-color3: var(--theme-color3);
+--sec-title-subtitle-color: var(--theme-color2);
+
+
+//text heading color
+--text-color:         #6A6F78;
+--headings-color:     var(--theme-color1);
+--link-color:         var(--theme-color1);
+--link-hover-color: var(--theme-color1);
 
 // reset scss
 .icon-quote {
@@ -156,4 +170,5 @@ $text-color-over-bg-theme-color3: #fff;
   &:before{
     background-image: url(../images/icons/pattern-tm-1-yellow.png);
   }
+}
 }

@@ -33,7 +33,7 @@ export default function Home1_Section13() {
         <>
 
         {/* <!-- News Section --> */}
-        <section className="news-section">
+        <section className="news-section" id="news">
             <div className="auto-container">
                 <div className="sec-title text-center">
                     <span className="sub-title">FROM THE BLOG</span>

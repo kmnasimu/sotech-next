@@ -1,8 +1,9 @@
-body.dark-mode :root {
+body.dark-mode {
   --dark-color1: #0F0F0F;
   --dark-color2: #181818;
   --dark-color3: #2b242b;
   --text-color: #a3a5aa;
+  --theme-color1: #dee0e4;
 }
 body.dark-mode body,
 body.dark-mode .page-wrapper,
@@ -10,6 +11,7 @@ body.dark-mode .header-style-two .header-lower,
 body.dark-mode .feature-block-two .inner-box,
 body.dark-mode .about-section,
 body.dark-mode .project-section,
+body.dark-mode .pricing-section-two,
 body.dark-mode .testimonial-block-five .inner-box,
 body.dark-mode .contact-section-three .content-column .call-info-box,
 body.dark-mode .about-section-four .content-column .blockquote-style-one,
@@ -127,10 +129,12 @@ body.dark-mode .founder-info .designation {
 body.dark-mode .header-style-two {
   background-color: unset;
 }
+body.dark-mode .project-section-four,
+body.dark-mode .project-section,
 body.dark-mode .offer-section-five:before,
 body.dark-mode .contact-section-three:after,
 body.dark-mode .pricing-section-two {
-  background-image: unset;
+  background-image: unset !important;
 }
 body.dark-mode .bg-pattern-1 {
   background-image: url(../images/icons/pattern-14.jpg);

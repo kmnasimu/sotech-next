@@ -6,7 +6,7 @@ export default function Home1_Section6() {
         <>
 
         {/* <!-- Project Section Three--> */}
-        <section className="project-section-three">
+        <section className="project-section-three" id="projects">
             <div className="auto-container">
                 <div className="sec-title">
                     <div className="row align-items-center">

@@ -6,7 +6,7 @@ export default function Home1_Section12() {
         <>
 
             {/* <!-- Contact Section Three --> */}
-            <section className="contact-section-three style-two">
+            <section className="contact-section-three style-two" id="contact">
                 <div className="auto-container">
                     <div className="row">
                         {/* <!-- Info Column --> */}

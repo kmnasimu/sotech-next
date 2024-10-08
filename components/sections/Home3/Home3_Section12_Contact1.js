@@ -6,7 +6,7 @@ export default function Home3_Section12() {
     return (
         <>
 
-        <section className="contact-section-three style-three">
+        <section className="contact-section-three style-three" id="contact">
             <div className="auto-container">
                 <div className="row">
                     <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">

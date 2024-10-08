@@ -6,7 +6,7 @@ export default function Home2_Section11() {
         <>
 
         {/* <!-- Contact Section --> */}
-        <section className="contact-section-two pull-up pb-0">
+        <section className="contact-section-two pull-up pb-0" id="contact">
             <div className="auto-container">
                 <div className="row">
                     {/* <!-- Info Column --> */}

@@ -7,7 +7,7 @@ export default function Home3_Section10() {
         <>
 
         {/* <!-- News Section Two --> */}
-        <section className="news-section-two">
+        <section className="news-section-two" id="news">
             <div className="auto-container">
                 <div className="row">
                     <div className="title-column col-xl-4 col-lg-4 col-md-12">
