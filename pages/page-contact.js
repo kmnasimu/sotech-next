@@ -2,16 +2,16 @@ import React from 'react';
 import Layout from "../components/layout/Layout";
 import PageTitle from "../components/sections/PageTitle";
 import ContactInner from "../components/sections/ContactInner";
-import Home9_Section9_Map from '../components/sections/Home9/Home9_Section9_Map';
+import ContactMap from "../components/sections/Home3/Home3_Section11_Map1";
 
 export default function Home() {
 
     return (
         <>
-            <Layout HeaderStyle="one">
-                <PageTitle pageName="Contact" />
+            <Layout HeaderStyle="three">
+                <PageTitle pageName="Contact Us" />
                 <ContactInner />
-                <Home9_Section9_Map />
+                <ContactMap />
             </Layout>
         </>
     )

@@ -46,8 +46,8 @@ export default function Home4_Section3() {
                         {service4.map((item, service4) => (
                         <div key={service4} className="service-block-three col wow fadeInUp">
                             <div className="inner-box ">
-                                <i class={`icon flaticon-${item.icon}`} />
-                                <h4 className="title"><Link href="/page-service-details" dangerouslySetInnerHTML={{ __html: item.title }}></Link></h4>
+                                <i className={`icon flaticon-${item.icon}`} />
+                                <h4 className="title"><Link href="page-service-details" dangerouslySetInnerHTML={{ __html: item.title }}></Link></h4>
                                 <div className="text">{item.text}</div>
                             </div>
                         </div>

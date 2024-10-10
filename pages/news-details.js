@@ -3,11 +3,11 @@ import Layout from "../components/layout/Layout";
 import PageTitle from "../components/sections/PageTitle";
 import BlogDetails from "../components/sections/BlogDetails";
 
-export default function Home() {
+export default function PageBlogDetails() {
 
     return (
         <>
-            <Layout HeaderStyle="one">
+            <Layout HeaderStyle="three">
                 <PageTitle pageName="Blog Details" />
                 <BlogDetails />
             </Layout>

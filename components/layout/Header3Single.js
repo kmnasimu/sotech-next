@@ -40,7 +40,7 @@ const Header3Single = ({ handleOpen, handleRemove, searchToggle, handleToggle, s
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
+                            <div className="logo"><Link href=""><Image src={LogoWhite} alt="Image" priority /></Link></div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
@@ -62,7 +62,7 @@ const Header3Single = ({ handleOpen, handleRemove, searchToggle, handleToggle, s
                     <div className="menu-backdrop" onClick={handleRemove} />
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                            <div className="nav-logo"><Link href=""><Image src={LogoDark} alt="Image" priority /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu/>
@@ -113,7 +113,7 @@ const Header3Single = ({ handleOpen, handleRemove, searchToggle, handleToggle, s
                     <div className="auto-container">
                         <div className="inner-container">					
                             <div className="logo">
-                                <Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link>
+                                <Link href=""><Image src={LogoWhite} alt="Image" priority /></Link>
                             </div>					
                             <div className="nav-outer">						
                                 <nav className="main-menu">

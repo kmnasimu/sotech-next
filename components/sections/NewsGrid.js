@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BlogOne = ({ alternate }) => {
+const BlogOne = () => {
     const data = [
         {
             img: "news-1.jpg",
@@ -64,7 +64,7 @@ const BlogOne = ({ alternate }) => {
                         <div className="news-block col-lg-4 col-sm-6 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
+                                    <figure className="image"><Link href="news-details"><img src={`images/resource/${item.img}`} alt /></Link></figure>
                                     <span className="date" dangerouslySetInnerHTML={{ __html: item.date }}></span>
                                 </div>
                                 <div className="content-box">
@@ -72,10 +72,10 @@ const BlogOne = ({ alternate }) => {
                                         <li><i className="fa fa-user" /> By {item.author}</li>
                                         <li><i className="fa fa-tag" /> {item.tag}</li>
                                     </ul>
-                                    <h4 className="title"><Link href="/news-details">{item.title}</Link></h4>
+                                    <h4 className="title"><Link href="news-details">{item.title}</Link></h4>
                                 </div>
                                 <div className="bottom-box">
-                                    <Link href="/news-details" className="read-more">READ MORE <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <Link href="news-details" className="read-more">READ MORE <i className="fa fa-long-arrow-alt-right" /></Link>
                                     <div className="comments"><i className="fa fa-comments" /> ({item.comment})</div>
                                 </div>
                             </div>

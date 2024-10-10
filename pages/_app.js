@@ -1,7 +1,9 @@
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
+// Add other swiper module CSS imports as necessary
+import '../public/css/bootstrap.min.css';
+import '../public/css/style.css';
+
 import '../public/css/bootstrap.min.css';
 import '../public/css/style.css';
 import '../public/css/style-dark.css';

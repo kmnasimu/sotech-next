@@ -18,7 +18,7 @@ export default function Home2_Section14() {
                                 <h3 className="title">Free Consultation On Your <br />Very First Insurance</h3>
                             </div>
                             <div className="btn-box">
-                                <Link href="/page-about" className="theme-btn btn-style-one bg-light"><span className="btn-title">GET SOLUTION</span></Link>
+                                <Link href="page-about" className="theme-btn btn-style-one bg-light"><span className="btn-title">GET SOLUTION</span></Link>
                             </div>
                         </div>
                     </div>

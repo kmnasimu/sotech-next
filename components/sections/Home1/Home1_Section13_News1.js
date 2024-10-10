@@ -45,7 +45,7 @@ export default function Home1_Section13() {
                     <div key={newsBlock1} className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                         <div className="inner-box">
                             <div className="image-box">
-                                <figure className="image"><Link href="/news-details"><img src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
+                                <figure className="image"><Link href="news-details"><img src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
                                 <span className="date" dangerouslySetInnerHTML={{ __html: item.date }} />
                             </div>
                             <div className="content-box">
@@ -53,10 +53,10 @@ export default function Home1_Section13() {
                                     <li><i className="fa fa-user"></i> by {item.author}</li>
                                     <li><i className="fa fa-tag"></i> {item.tag}</li>
                                 </ul>
-                                <h3 className="title"><Link href="/news-details">{item.title}</Link></h3>
+                                <h3 className="title"><Link href="news-details">{item.title}</Link></h3>
                             </div>
                             <div className="bottom-box">
-                                <Link href="/news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                <Link href="news-details" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 <div className="comments"><i className="fa fa-comments" /> {item.comment}</div>
                             </div>
                         </div>

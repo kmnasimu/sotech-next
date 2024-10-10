@@ -41,7 +41,7 @@ export default function Home3_Section5() {
                     <div key={teamBlock3} className="team-block-two col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                         <div className="inner-box">
                             <div className="info-box">
-                                <h4 className="name"><Link href="/page-team-details">{item.name}</Link></h4>
+                                <h4 className="name"><Link href="page-team-details">{item.name}</Link></h4>
                                 <span className="designation">{item.designation}</span>
                                 <span className="share-icon fa fa-share-alt" />
                                 <div className="social-links">
@@ -52,7 +52,7 @@ export default function Home3_Section5() {
                                 </div>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><Link href="/page-team-details"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
+                                <figure className="image"><Link href="page-team-details"><img src={`images/resource/${item.img}`} alt="" /></Link></figure>
                             </div>
                         </div>
                     </div>

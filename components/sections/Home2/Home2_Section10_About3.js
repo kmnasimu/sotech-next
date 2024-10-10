@@ -20,7 +20,7 @@ export default function Home2_Section10() {
                                 <blockquote className="blockquote-style-one">We possess over 35 years of expertise in Digital Agency Services solutions in town.</blockquote>
                                 <div className="btn-box">
                                     <div className="">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                        <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     </div>
                                     <div className="founder-info">
                                         <div className="thumb"><img src="images/resource/thumb-1.jpg" alt="" /></div>

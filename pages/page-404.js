@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout HeaderStyle="one">
+            <Layout HeaderStyle="error" FooterStyle="error">
                 <Page404 />
             </Layout>
         </>

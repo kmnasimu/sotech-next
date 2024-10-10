@@ -17,7 +17,7 @@ const Pricing = () => {
                                     <div className="text">Lorem ipsum dolor sit amet consectetur adipiscing elit velit convallis enim vestibulum sagittis sapien  inceptos.</div>
                                 </div>
                                 <div className="info-btn">
-                                    <Link href="/" className="info-btn-two">
+                                    <Link href="" className="info-btn-two">
                                         <i className="icon fa fa-phone" />
                                         <small>Call Anytime</small>
                                         <strong>+ 01 ( 2345 ) 6789</strong>
@@ -44,7 +44,7 @@ const Pricing = () => {
                                             <li>Roof Light Cleaning House</li>
                                         </ul>
                                         <div className="btn-box">
-                                            <Link href="/page-pricing" className="theme-btn2 btn-style-one hvr-light"><span className="btn-title">BOOKING NOW</span></Link>
+                                            <Link href="page-pricing" className="theme-btn2 btn-style-one hvr-light"><span className="btn-title">BOOKING NOW</span></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@ const Pricing = () => {
                                             <li>Roof Light Cleaning House</li>
                                         </ul>
                                         <div className="btn-box">
-                                            <Link href="/page-pricing" className="theme-btn btn-style-one"><span className="btn-title">BOOKING NOW</span></Link>
+                                            <Link href="page-pricing" className="theme-btn btn-style-one"><span className="btn-title">BOOKING NOW</span></Link>
                                         </div>
                                     </div>
                                 </div>

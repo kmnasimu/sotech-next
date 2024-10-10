@@ -55,9 +55,9 @@ export default function Home2_Section4() {
                     <div key={serviceBlock} className="service-block-six col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
                         <div className="inner-box ">
                             <div className="icon-box">
-                                <i class={`icon flaticon-${item.icon}`} />
+                                <i className={`icon flaticon-${item.icon}`} />
                             </div>
-                            <h4 className="title"><Link href="/page-service-details" dangerouslySetInnerHTML={{ __html: item.title }}/></h4>
+                            <h4 className="title"><Link href="page-service-details" dangerouslySetInnerHTML={{ __html: item.title }}/></h4>
                         </div>
                     </div>
                     ))}                    

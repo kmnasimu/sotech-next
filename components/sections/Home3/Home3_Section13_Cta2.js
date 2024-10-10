@@ -15,7 +15,7 @@ export default function Home3_Section13() {
                         <h3 className="title">Get Free Consultancy or +1 (800) 123 446 559</h3>
                     </div>
                     <div className="btn-box">
-                        <Link href="/page-about" className="theme-btn btn-style-one bg-light"><span className="btn-title">GET SOLUTION</span></Link>
+                        <Link href="page-about" className="theme-btn btn-style-one bg-light"><span className="btn-title">GET SOLUTION</span></Link>
                     </div>
                 </div>
             </div>

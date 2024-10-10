@@ -42,11 +42,11 @@ export default function Home1_Section4() {
                     <div key={serviceBlock} className="service-block-seven dark col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                         <div className="inner-box">
                             <div className="icon-box">
-                                <i class={`icon flaticon-${item.icon}`} />
+                                <i className={`icon flaticon-${item.icon}`} />
                             </div>
-                            <h4 className="title"><Link href="/page-service-details">{item.title}</Link></h4>
+                            <h4 className="title"><Link href="page-service-details">{item.title}</Link></h4>
                             <div className="text">{item.text}</div>
-                            <Link href="/page-service-details" className="read-more">Read more <i className="fa fa-arrow-right" /></Link>
+                            <Link href="page-service-details" className="read-more">Read more <i className="fa fa-arrow-right" /></Link>
                         </div>
                     </div>
                     ))}

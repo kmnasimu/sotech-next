@@ -36,10 +36,10 @@ const TeamDetails = ({ alternate }) => {
 											<div className=""><span>www.yourdomain.com</span></div>
 										</div>
 										<div className="team-details__social"> 
-											<Link href="/"><i className="fab fa-twitter" /></Link> 
-											<Link href="/"><i className="fab fa-facebook" /></Link> 
-											<Link href="/"><i className="fab fa-pinterest-p" /></Link> 
-											<Link href="/"><i className="fab fa-instagram" /></Link> 
+											<Link href=""><i className="fab fa-twitter" /></Link> 
+											<Link href=""><i className="fab fa-facebook" /></Link> 
+											<Link href=""><i className="fab fa-pinterest-p" /></Link> 
+											<Link href=""><i className="fab fa-instagram" /></Link> 
 										</div>
 									</div>
 								</div>

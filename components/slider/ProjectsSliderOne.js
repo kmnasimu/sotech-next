@@ -68,10 +68,10 @@ const ProjectsSliderOne = () => {
 						<div className="inner-box">
 							<div className="image-box">
 								<figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="Image" priority /></Link></figure>
-								<Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+								<Link href="page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
 							</div>
 							<div className="content-box">
-								<h3 className="title"><Link href="/page-project-details">{item.title}</Link></h3>
+								<h3 className="title"><Link href="page-project-details">{item.title}</Link></h3>
 								<span className="cat">{item.categories}</span>
 							</div>
 						</div>

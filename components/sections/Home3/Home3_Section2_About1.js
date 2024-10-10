@@ -45,7 +45,7 @@ export default function Home3_Section2() {
                     <div className="content-bottom">
                         <div className="inner">
                             <div className="call-info-box-outer">
-                                <div className="call-info-box-text">We Provide Full Office Assistance Anytime anywhere. <Link href="/page-contact"><span>Request A Quote</span></Link></div>
+                                <div className="call-info-box-text">We Provide Full Office Assistance Anytime anywhere. <Link href="page-contact"><span>Request A Quote</span></Link></div>
                                 <div className="call-info-box">
                                     <i className="icon fa fa-phone" />
                                     <span>+(528) 456-7592</span>

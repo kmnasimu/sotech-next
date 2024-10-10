@@ -10,7 +10,7 @@ export default function Home1_Section5() {
             <div className="auto-container">
                 <div className="title-box">
                     <h1 className="title">IT Solutions & Services Right <br/>At Your Fingertips</h1>
-                    <Link href="/page-services" className="theme-btn btn-style-one"><span className="btn-title">DISCOVER MORE</span></Link>
+                    <Link href="page-services" className="theme-btn btn-style-one"><span className="btn-title">DISCOVER MORE</span></Link>
                 </div>
             </div>
         </section>

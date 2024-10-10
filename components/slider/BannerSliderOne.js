@@ -36,7 +36,7 @@ const BannerSliderOne = () => {
                                     <span className="sub-title animate-1"><span className="inner">WELCOME TO THE BEST SOTECH</span></span>
                                     <h1 className="title animate-2">Innovative Tech <br/>It Solution</h1>
                                     <div className="btn-box animate-3">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                        <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ const BannerSliderOne = () => {
                                     <span className="sub-title animate-1"><span className="inner">WELCOME TO THE BEST SOTECH</span></span>
                                     <h1 className="title animate-2">Innovative Tech <br/>It Solution</h1>
                                     <div className="btn-box animate-3">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                        <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const BannerSliderOne = () => {
                                     <span className="sub-title animate-1"><span className="inner">WELCOME TO THE BEST SOTECH</span></span>
                                     <h1 className="title animate-2">Innovative Tech <br/>It Solution</h1>
                                     <div className="btn-box animate-3">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                        <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
                                     </div>
                                 </div>
                             </div>

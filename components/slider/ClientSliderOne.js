@@ -65,7 +65,7 @@ const ClientSliderOne = () => {
             > 
                 {data.map((item, ClientsSlider) => (
                     <SwiperSlide key={ClientsSlider}>
-                        <li className="slide-item"> <Link href="/"><img src={`images/resource/${item.img}`} alt="" priority /></Link></li>
+                        <li className="slide-item"> <Link href=""><img src={`images/resource/${item.img}`} alt="" priority /></Link></li>
                     </SwiperSlide>
                 ))}
             </Swiper> 

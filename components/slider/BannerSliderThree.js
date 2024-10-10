@@ -48,7 +48,7 @@ const BannerSliderThree = () => {
                             <span className="sub-title animate-2">WELCOME TO OUR COMPANY</span>
                             <h1 className="title animate-3">Enhanced Investment & Business</h1>
                             <div className="btn-box animate-4">
-                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
+                                <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
                             </div>
                         </div>
                     </div>

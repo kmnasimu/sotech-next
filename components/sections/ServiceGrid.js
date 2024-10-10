@@ -3,68 +3,64 @@ import Link from 'next/link'
 
 const data = [
     {
-        img: "service2-1.jpg",
-        icon: "carpentry",
-        title: "Hardwood Flooring",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
+        img: "service-1.jpg",
+        icon: "business-010-startup",
+        title: "Product Development",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
     },
     {
-        img: "service2-2.jpg",
-        icon: "hammer",
-        title: "Furniture Remodelling",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
+        img: "service-2.jpg",
+        icon: "business-002-graph",
+        title: "UI/UX Designing",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
     },
     {
-        img: "service2-3.jpg",
-        icon: "carpenter-5",
-        title: "General Carpentry",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
+        img: "service-3.jpg",
+        icon: "business-048-coin",
+        title: "Digital Marketing",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
     },
     {
-        img: "service2-2.jpg",
-        icon: "hammer",
-        title: "Furniture Remodelling",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
+        img: "service-3.jpg",
+        icon: "business-002-graph",
+        title: "Data Analysis",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
     },
     {
-        img: "service2-3.jpg",
-        icon: "carpenter-5",
-        title: "General Carpentry",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
+        img: "service-1.jpg",
+        icon: "business-048-coin",
+        title: "Security System",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
     },
     {
-        img: "service2-1.jpg",
-        icon: "carpentry",
-        title: "Hardwood Flooring",
-        text: "We offer end-to-end carpenter tailored for specific markets solution"
-    },
+        img: "service-2.jpg",
+        icon: "business-010-startup",
+        title: "Data Visualization",
+        text: "We’ve designed a culture that allows our stewards to assimilate"
+    }
 ];
 
 export default function ServiceGrid() {
 
     return (
         <>
-            <section className="services-section-home2 pb-70 pt-120">
+            <section className="service-section pt-100 pb-70">
 		        <div className="auto-container">
                     <div className="row">
                         {data.map((item, servicesGrid) => (
-                            <div className="col-lg-4 col-md-6" key={servicesGrid}>
-                                <div className="service-block-two">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><Link href="/page-service-details"><img className="w-100" src={`images/resource/${item.img}`} alt="" priority /></Link></figure>
-                                        </div>
-                                        <div className="content-box">
-                                            <div className="inner">
-                                                <i class={`icon flaticon-${item.icon}`} />
-                                                <h4 className="title"><Link href="/page-service-details">{item.title}</Link></h4>
-                                                <div className="text">{item.text}</div>
-                                            </div>
-                                            <Link href="page-service-details" className="theme-btn btn-style-one dark-bg"><span className="btn-title">READ MORE <i className="fa fa-arrow-right" /></span></Link>
-                                        </div>
-                                    </div>
+                        <div key={servicesGrid} class="service-block col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <figure class="image"><Link href="page-service-details"><img className="w-100" src={`images/resource/${item.img}`} alt="Image" /></Link></figure>
+                                    <div class="icon-box"><i className={`icon flaticon-${item.icon}`} /></div>
+                                </div>
+                                <div class="content-box">
+                                    <h5 class="title"><Link href="page-service-details">{item.title}</Link></h5>
+                                    <div class="text">{item.text}</div>
+                                    <Link href="page-service-details" class="read-more">read More <i class="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
+                        </div>
                         ))}
                     </div>
                 </div>

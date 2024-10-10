@@ -47,14 +47,14 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="header-lower-inner">
                         <div className="main-box">
                             <div className="logo-box">
-                                <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                                <div className="logo"><Link href=""><Image src={LogoDark} alt="Image" priority /></Link></div>
                             </div>
                             <div className="nav-outer">
                                 <nav className="nav main-menu">
                                     <NavLinks/>
                                 </nav>
                                 <div className="outer-box">
-                                    <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">BOOK A CONSULTATION</span></Link>
+                                    <Link href="page-contact" className="theme-btn btn-style-one"><span className="btn-title">BOOK A CONSULTATION</span></Link>
                                     <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="menu-backdrop" onClick={handleRemove} />
                 <nav className="menu-box">
                     <div className="upper-box">
-                        <div className="nav-logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                        <div className="nav-logo"><Link href=""><Image src={LogoDark} alt="Image" priority /></Link></div>
                         <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                     </div>
                     <MobileMenu/>
@@ -117,7 +117,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="auto-container">
                     <div className="inner-container">					
                         <div className="logo">
-                            <Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link>
+                            <Link href=""><Image src={LogoWhite} alt="Image" priority /></Link>
                         </div>					
                         <div className="nav-outer">						
                             <nav className="main-menu">

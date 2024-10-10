@@ -40,7 +40,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link></div>
+                            <div className="logo"><Link href=""><Image src={LogoWhite} alt="Image" /></Link></div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
@@ -62,7 +62,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="menu-backdrop" onClick={handleRemove} />
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                            <div className="nav-logo"><Link href=""><Image src={LogoDark} alt="Image" /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu/>
@@ -103,7 +103,13 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="search-inner">
                         <form method="post" action="/">
                             <div className="form-group">
-                                <input type="search" name="search-field" placeholder="Search..." required />
+                                <input 
+                                    type="search" 
+                                    name="search-field" 
+                                    defaultValue="search"
+                                    placeholder="Search..." 
+                                    required 
+                                />
                                 <button type="submit"><i className="fa fa-search" /></button>
                             </div>
                         </form>
@@ -113,7 +119,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="auto-container">
                         <div className="inner-container">					
                             <div className="logo">
-                                <Link href="/"><Image src={LogoWhite} alt="Image" priority /></Link>
+                                <Link href=""><Image src={LogoWhite} alt="Image" /></Link>
                             </div>					
                             <div className="nav-outer">						
                                 <nav className="main-menu">

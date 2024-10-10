@@ -12,7 +12,9 @@
   "dependencies": {
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
+    "isotope-layout": "^3.0.6",
     "next": "^14.2.14",
+    "rc-slider": "^11.1.7",
     "react": "^18.2.0",
     "react-animated-slider": "^1.1.4",
     "react-circular-progressbar": "^2.1.0",
@@ -23,7 +25,7 @@
     "react-slider": "^2.0.6",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.57.1",
-    "swiper": "^8.4.6",
+    "swiper": "^11.1.14",
     "wowjs": "^1.1.3"
   }
 }

@@ -50,7 +50,7 @@ const BannerSliderFour = () => {
                             <h1 className="title animate-2">Top It Technological <br/>Solutions.</h1>
                             <h2 className="title-stroke animate-3">BOOST</h2>
                             <div className="btn-box animate-3">
-                                <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
+                                <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">EXPLORE MORE</span></Link>
                             </div>
                         </div>
                     </div>

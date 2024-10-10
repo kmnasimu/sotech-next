@@ -48,7 +48,7 @@ export default function Home2_Section3() {
                                     </div>
 
                                     <div className="btn-box">
-                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                        <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     </div>
                                 </div>
                             </div>

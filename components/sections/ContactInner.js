@@ -64,7 +64,7 @@ export default function ContactForm() {
                                         </div>
                                         <div className="text ml-xs--0 mt-xs-10">
                                             <h6>Have any question?</h6>
-                                            <Link href="/"><span>Free</span> +92 (020)-9850</Link>
+                                            <Link href=""><span>Free</span> +92 (020)-9850</Link>
                                         </div>
                                     </li>
                                     <li className="d-block d-sm-flex align-items-sm-center ">
@@ -73,7 +73,7 @@ export default function ContactForm() {
                                         </div>
                                         <div className="text ml-xs--0 mt-xs-10">
                                             <h6>Write email</h6>
-                                            <Link href="/">needhelp@company.com</Link>
+                                            <Link href="">needhelp@company.com</Link>
                                         </div>
                                     </li>
                                     <li className="d-block d-sm-flex align-items-sm-center ">

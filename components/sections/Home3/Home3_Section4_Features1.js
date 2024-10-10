@@ -58,9 +58,9 @@ export default function Home3_Section4() {
 				<div key={featureBlock3} className="feature-block-seven dark col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
 					<div className="inner-box ">
 						<div className="icon-box">
-							<i class={`icon flaticon-${item.icon}`} />
+							<i className={`icon flaticon-${item.icon}`} />
 						</div>
-						<h6 className="title"><Link href="/page-service-details">{item.title}</Link></h6>
+						<h6 className="title"><Link href="page-service-details">{item.title}</Link></h6>
 					</div>
 				</div>
                 ))}

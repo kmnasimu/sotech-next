@@ -55,7 +55,7 @@ export default function Home2_Section9() {
                                             <div className="feature-block-nine">
                                                 <div className="inner-box ">
                                                     <i className="icon flaticon-business-011-dollar" />
-                                                    <h4 className="title"><Link href="/page-service-details">Best Business Solution</Link></h4>
+                                                    <h4 className="title"><Link href="page-service-details">Best Business Solution</Link></h4>
                                                     <div className="text">Lorem ipsum dolor sit  consectetur adipiscing elit ullamcorper.</div>
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@ export default function Home2_Section9() {
                                             <div className="feature-block-nine">
                                                 <div className="inner-box ">
                                                     <i className="icon flaticon-business-012-startup" />
-                                                    <h4 className="title"><Link href="/page-service-details">Highest Customer Value</Link></h4>
+                                                    <h4 className="title"><Link href="page-service-details">Highest Customer Value</Link></h4>
                                                     <div className="text">Lorem ipsum dolor sit  consectetur adipiscing elit ullamcorper.</div>
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@ export default function Home2_Section9() {
                                                 <div className="feature-block-nine">
                                                     <div className="inner-box ">
                                                         <i className="icon flaticon-business-011-dollar" />
-                                                        <h4 className="title"><Link href="/page-service-details">Best Business Solution</Link></h4>
+                                                        <h4 className="title"><Link href="page-service-details">Best Business Solution</Link></h4>
                                                         <div className="text">Lorem ipsum dolor sit  consectetur adipiscing elit ullamcorper.</div>
                                                     </div>
                                                 </div>
@@ -113,7 +113,7 @@ export default function Home2_Section9() {
                                                 <div className="feature-block-nine">
                                                     <div className="inner-box ">
                                                         <i className="icon flaticon-business-012-startup" />
-                                                        <h4 className="title"><Link href="/page-service-details">Highest Customer Value</Link></h4>
+                                                        <h4 className="title"><Link href="page-service-details">Highest Customer Value</Link></h4>
                                                         <div className="text">Lorem ipsum dolor sit  consectetur adipiscing elit ullamcorper.</div>
                                                     </div>
                                                 </div>

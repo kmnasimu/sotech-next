@@ -63,16 +63,16 @@ const ProjectDetails = ({ alternate }) => {
 							<div className="project-details__pagination-box">
 								<ul className="project-details__pagination list-unstyled clearfix">
 									<li className="next">
-										<div className="icon"> <Link href="/" aria-label="Previous"><i className="lnr lnr-icon-arrow-left" /></Link> </div>
+										<div className="icon"> <Link href="" aria-label="Previous"><i className="lnr lnr-icon-arrow-left" /></Link> </div>
 										<div className="content">Previous</div>
 									</li>
-									<li className="count"><Link href="/"></Link></li>
-									<li className="count"><Link href="/"></Link></li>
-									<li className="count"><Link href="/"></Link></li>
-									<li className="count"><Link href="/"></Link></li>
+									<li className="count"><Link href=""></Link></li>
+									<li className="count"><Link href=""></Link></li>
+									<li className="count"><Link href=""></Link></li>
+									<li className="count"><Link href=""></Link></li>
 									<li className="previous">
 										<div className="content">Next</div>
-										<div className="icon"> <Link href="/" aria-label="Previous"><i className="lnr lnr-icon-arrow-right" /></Link></div>
+										<div className="icon"> <Link href="" aria-label="Previous"><i className="lnr lnr-icon-arrow-right" /></Link></div>
 									</li>
 								</ul>
 							</div>

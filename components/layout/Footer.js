@@ -16,13 +16,13 @@ const Footer = () => {
                             {/*Footer Column*/}
                             <div className="footer-column col-lg-3 col-sm-6">
                                 <div className="footer-widget about-widget">
-                                    <div className="logo"><Link href="/"><Image src={LogoDark} alt="Image" priority /></Link></div>
+                                    <div className="logo"><Link href=""><Image src={LogoDark} alt="Image"/></Link></div>
                                     <div className="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
                                     <ul className="social-icon-two">
-                                        <li><Link href="/"><i className="fab fa-twitter" /></Link></li>
-                                        <li><Link href="/"><i className="fab fa-instagram" /></Link></li>
-                                        <li><Link href="/"><i className="fab fa-facebook" /></Link></li>
-                                        <li><Link href="/"><i className="fab fa-linkedin-in" /></Link></li>
+                                        <li><Link href=""><i className="fab fa-twitter" /></Link></li>
+                                        <li><Link href=""><i className="fab fa-instagram" /></Link></li>
+                                        <li><Link href=""><i className="fab fa-facebook" /></Link></li>
+                                        <li><Link href=""><i className="fab fa-linkedin-in" /></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -32,11 +32,11 @@ const Footer = () => {
                                 <div className="footer-widget">
                                     <h5 className="widget-title">Explore</h5>
                                     <ul className="user-links">
-                                        <li><Link href="/">About Company</Link></li>
-                                        <li><Link href="/">Meet the Team</Link></li>
-                                        <li><Link href="/">News & Media</Link></li>
-                                        <li><Link href="/">Our Projects</Link></li>
-                                        <li><Link href="/">Contact</Link></li>
+                                        <li><Link href="">About Company</Link></li>
+                                        <li><Link href="">Meet the Team</Link></li>
+                                        <li><Link href="">News & Media</Link></li>
+                                        <li><Link href="">Our Projects</Link></li>
+                                        <li><Link href="">Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -48,8 +48,8 @@ const Footer = () => {
                                     <div className="widget-content">
                                         <div className="text">66 Road Broklyn Street, 600 New <br /> York, USA</div>
                                         <ul className="contact-info">
-                                            <li><i className="fa fa-envelope" /> <Link href="/">needhelp@company.com</Link><br /></li>
-                                            <li><i className="fa fa-phone-square" /> <Link href="/">+00 111 222 3333</Link><br /></li>
+                                            <li><i className="fa fa-envelope" /> <Link href="">needhelp@company.com</Link><br /></li>
+                                            <li><i className="fa fa-phone-square" /> <Link href="">+00 111 222 3333</Link><br /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -62,22 +62,22 @@ const Footer = () => {
                                     <div className="widget-content">
                                         <div className="outer clearfix">
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-1.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-1.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-2.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-2.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-3.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-3.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-4.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-4.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-5.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-5.jpg" alt="" priority /></Link>
                                             </figure>
                                             <figure className="image">
-                                                <Link href="/"><img src="/images/resource/project-thumb-6.jpg" alt="" priority /></Link>
+                                                <Link href=""><img src="/images/resource/project-thumb-6.jpg" alt="" priority /></Link>
                                             </figure>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="copyright-text">&copy; Copyright reserved by <Link href="/">kodesolution.com</Link></div>
+                            <div className="copyright-text">&copy; Copyright reserved by <Link href="">kodesolution.com</Link></div>
                         </div>
                     </div>
                 </div>

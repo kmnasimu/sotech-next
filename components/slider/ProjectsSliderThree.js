@@ -69,8 +69,8 @@ const ProjectsSliderThree = () => {
 							<div className="image-box">
                             <figure className="image"><Link href={`images/resource/${item.img}`} className="lightbox-image"><img src={`images/resource/${item.img}`} alt="Image" priority /></Link></figure>
 								<div className="overlay-box">
-                                    <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                    <h4 className="title"><Link href="/page-project-details">{item.title}</Link></h4>
+                                    <Link href="page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <h4 className="title"><Link href="page-project-details">{item.title}</Link></h4>
 								    <span className="cat">{item.categories}</span>
 								</div>
 							</div>

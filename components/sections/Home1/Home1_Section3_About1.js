@@ -29,7 +29,7 @@ export default function Home1_Section3() {
                                         <h5 className="name">Jessica brown</h5>
                                         <span className="designation">Founder of company</span>
                                     </div>
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore now</span></Link>
+                                    <Link href="page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore now</span></Link>
                                 </div>
                             </div>
                         </div>

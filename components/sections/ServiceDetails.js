@@ -57,13 +57,13 @@ const ServiceDetails = ({ alternate }) => {
 									</div>
 									<div className="help-contact">
 										<p>Need help? Talk to an expert</p>
-										<Link href="/">+892 ( 123 ) 112 - 9999</Link>
+										<Link href="">+892 ( 123 ) 112 - 9999</Link>
 									</div>
 								</div>
 								{/* Start Services Details Sidebar Single */}
 								<div className="sidebar-widget service-sidebar-single mt-4">
 									<div className="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
-										<Link href="/" className="theme-btn btn-style-one d-grid"><span className="btn-title"><span className="fas fa-file-pdf" /> download pdf file</span></Link>
+										<Link href="" className="theme-btn btn-style-one d-grid"><span className="btn-title"><span className="fas fa-file-pdf" /> download pdf file</span></Link>
 									</div>
 								</div>
 							</div>

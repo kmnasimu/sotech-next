@@ -37,13 +37,13 @@ export default function Home1_Section2() {
                         {features.map((item, featureBlock) => (
                         <div key={featureBlock} className="feature-block-two col wow fadeInUp">
                             <div className="inner-box ">
-                                <i class={`icon flaticon-${item.icon}`} />
-                                <h4 className="title"><Link href="/page-service-details" dangerouslySetInnerHTML={{ __html: item.title }} /></h4>
+                                <i className={`icon flaticon-${item.icon}`} />
+                                <h4 className="title"><Link href="page-service-details" dangerouslySetInnerHTML={{ __html: item.title }} /></h4>
                             </div>
                         </div>
                         ))}
                     </div>
-                    <div className="bottom-text">IT Technology services built specifically for your business. <Link href="/page-services" className="theme-btn btn-style-one small"><span className="btn-title">Find Your Solution</span></Link></div>
+                    <div className="bottom-text">IT Technology services built specifically for your business. <Link href="page-services" className="theme-btn btn-style-one small"><span className="btn-title">Find Your Solution</span></Link></div>
                 </div>
             </section>
             {/* <!-- End Features Section Two --> */}
