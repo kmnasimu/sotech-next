@@ -13,7 +13,7 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
     "isotope-layout": "^3.0.6",
-    "next": "^14.2.14",
+    "next": "^14.2.15",
     "rc-slider": "^11.1.7",
     "react": "^18.2.0",
     "react-animated-slider": "^1.1.4",
