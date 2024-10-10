@@ -21,35 +21,48 @@ const Accordion = () => {
     return (
         <>
 
-            <ul className="accordion-box">
-                {/* Block */}
+
+            <ul className="accordion-box wow fadeInRight">
                 <li className={isActive.key == 1 ? "accordion block active-block" : "accordion block"} onClick={() => handleToggle(1)}>
-                    <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"}>Our mission is to design, innovative <i className="arrow fa fa-arrow-right" /></div>
+                    <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"}>How to soft launch your business?
+                        <div className="icon fa fa-plus"></div>
+                    </div>
                     <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                            <div className="text">Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia eget, feugiat felis sociis ad augue senectus ligula.</div>
+                            <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour or random ised words believ able lorem Ipsum generators on the internet tend to repeat predefined chunks as necessary.</div>
                         </div>
                     </div>
                 </li>
-                {/* Block */}
                 <li className={isActive.key == 2 ? "accordion block active-block" : "accordion block"} onClick={() => handleToggle(2)}>
-                    <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"}>Carpenter seeks to be a premier <i className="arrow fa fa-arrow-right" /></div>
+                    <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"}>Is my technology allowed on tech?
+                        <div className="icon fa fa-plus"></div>
+                    </div>
                     <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                            <div className="text">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum cubilia eget, feugiat felis sociis ad augue senectus ligula.</div>
+                            <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour or random ised words believ able lorem Ipsum generators on the internet tend to repeat predefined chunks as necessary.</div>
                         </div>
                     </div>
                 </li>
-                {/* Block */}
                 <li className={isActive.key == 3 ? "accordion block active-block" : "accordion block"} onClick={() => handleToggle(3)}>
-                    <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"}>We will continue to build and nurture <i className="arrow fa fa-arrow-right" /></div>
+                    <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"}>How to turn visitors into contributors
+                        <div className="icon fa fa-plus"></div>
+                    </div>
                     <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                            <div className="text">Lorem ipsum dolor sit amet consectetur adipiscing elit condimentum cubilia eget, feugiat felis sociis ad augue senectus ligula.</div>
+                            <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour or random ised words believ able lorem Ipsum generators on the internet tend to repeat predefined chunks as necessary.</div>
                         </div>
                     </div>
                 </li>
-
+                <li className={isActive.key == 4 ? "accordion block active-block" : "accordion block"} onClick={() => handleToggle(4)}>
+                    <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"}>How can i find my solutions?
+                        <div className="icon fa fa-plus"></div>
+                    </div>
+                    <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
+                        <div className="content">
+                            <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour or random ised words believ able lorem Ipsum generators on the internet tend to repeat predefined chunks as necessary.</div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </>
     );

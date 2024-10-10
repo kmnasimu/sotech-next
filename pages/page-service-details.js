@@ -7,7 +7,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout HeaderStyle="one">
+            <Layout HeaderStyle="three">
                 <PageTitle pageName="Service Details" />
                 <ServiceDetails />
             </Layout>
